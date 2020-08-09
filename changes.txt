@@ -1,0 +1,7298 @@
+Tue Jul 21 04:49:06 PM 2020
+	brew update
+		Updated Homebrew from ceddaa110 to ee648ef88.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		file-formula
+		==> Updated Casks
+		activedock
+		amazon-chime
+		axure-rp
+		cacher
+		clickup
+		data-science-studio
+		dbeaver-community
+		eve-launcher
+		exodus
+		gitfinder
+		iconjar
+		kiwi-for-g-suite
+		loom
+		mate-translate
+		melodics
+		middle
+		moneymoney
+		nwjs
+		postbox
+		proclaim
+		refined-github-safari
+		remote-desktop-manager
+		remote-desktop-manager-free
+		resilio-sync
+		ridibooks
+		roboform
+		royal-tsx
+		second-life-viewer
+		sipgate-softphone
+		sizzy
+		softorino-youtube-converter
+		stats
+		termius
+		texpad
+		todour
+		use-engine
+		xmind-zen
+		zulip
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Wed Jul 22 09:00:07 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from ee648ef88 to 45c78ffe9.
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> New Formulae
+		act
+		argocd
+		cortex
+		eksctl
+		fennel
+		hy
+		loki
+		promtail
+		thanos
+		==> Updated Formulae
+		Updated 76 formulae.
+		==> Updated Casks
+		appcode
+		carbon-copy-cloner
+		electron
+		font-spleen
+		freenettray
+		freesmug-chromium
+		iina-plus
+		intellij-idea
+		intellij-idea-ce
+		jetbrains-toolbox
+		kiwi-for-g-suite
+		kui
+		makemkv
+		openineditor-lite
+		openinterminal
+		openinterminal-lite
+		phpstorm
+		splayer
+		telegram
+		thunderbird
+		trader-workstation
+		==> Deleted Casks
+		daemon-tools
+		
+		==> Upgrading 1 outdated package:
+		python@3.8 3.8.4 -> 3.8.5
+		==> Upgrading python@3.8 3.8.4 -> 3.8.5 
+		==> Downloading https://homebrew.bintray.com/bottles/python%403.8-3.8.5.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/3f0592dfdf6bf38c25870b57ba3e71b5b47e6c5a5ddb76aaafcbffe67eff8354?response-content-disposition=attachment%3Bfilename%3D%22python%403.8-3.8.5.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvM2YwNTkyZGZkZjZiZjM4YzI1ODcwYjU3YmEzZTcxYjViNDdlNmM1YTVkZGI3NmFhYWZjYmZmZTY3ZWZmODM1ND9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMnB5dGhvbiU0MDMuOC0zLjguNS5jYXRhbGluYS5ib3R0bGUudGFyLmd6JTIyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTk1NDMwNzQ3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=Z4g0BuLb1jj9BHn3C1UxolYROgjzsh5MQPiPWSJFbtTKk3wHA85N1DNfM3eaZry2-9VUgjB8GzAavFFAp2e~wuuJw7FsYeRNninfEPDjJZ4XgOmYOh~jIS3CfdonFdC6WZnbtuUpaZYOtrsSSib3pZ~QsVW0e3RYcjLj08LVCFIHyWfidTKOlXXvaMOZnzzkeyKG2lqdNey~H5I5S8iGKs6ot15xhVN8INHGHHJV2CC2Ymg8laZw7pHNfAfO1HnQ-Lz99sKq9jaGoJ2rq8zgVw3~EYYViEoIGo5PhGGZx7TaJw~27g7etcDZXTlrMkkANfBXwcA--SUiuYS8HGIekA__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring python@3.8-3.8.5.catalina.bottle.tar.gz
+		The formula built, but is not symlinked into /usr/local
+		Could not symlink bin/2to3
+		Target /usr/local/bin/2to3
+		already exists. You may want to remove it:
+		  rm '/usr/local/bin/2to3'
+		
+		To force the link and overwrite all conflicting files:
+		  brew link --overwrite python@3.8
+		
+		To list all files that would be deleted:
+		  brew link --overwrite --dry-run python@3.8
+		
+		Possible conflicting files are:
+		/usr/local/bin/2to3 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/2to3
+		/usr/local/bin/2to3-3.8 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/2to3-3.8
+		/usr/local/bin/idle3 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/idle3
+		/usr/local/bin/idle3.8 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/idle3.8
+		/usr/local/bin/pydoc3 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/pydoc3
+		/usr/local/bin/pydoc3.8 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/pydoc3.8
+		/usr/local/bin/python3 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/python3
+		/usr/local/bin/python3-config -> /Library/Frameworks/Python.framework/Versions/3.8/bin/python3-config
+		/usr/local/bin/python3.8 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+		/usr/local/bin/python3.8-config -> /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8-config
+		==> /usr/local/Cellar/python@3.8/3.8.5/bin/python3 -s setup.py --no-user-cfg install --force --verbose --install-scripts=/usr/local/Cellar/python@3.8/3.8.5/bin --install-lib=/usr/local/lib/python3.8/site-packages --single-version-externally-managed --record=installed.txt
+		==> /usr/local/Cellar/python@3.8/3.8.5/bin/python3 -s setup.py --no-user-cfg install --force --verbose --install-scripts=/usr/local/Cellar/python@3.8/3.8.5/bin --install-lib=/usr/local/lib/python3.8/site-packages --single-version-externally-managed --record=installed.txt
+		==> /usr/local/Cellar/python@3.8/3.8.5/bin/python3 -s setup.py --no-user-cfg install --force --verbose --install-scripts=/usr/local/Cellar/python@3.8/3.8.5/bin --install-lib=/usr/local/lib/python3.8/site-packages --single-version-externally-managed --record=installed.txt
+		==> Caveats
+		Python has been installed as
+		  /usr/local/bin/python3
+		
+		Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+		`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+		  /usr/local/opt/python@3.8/libexec/bin
+		
+		You can install Python packages with
+		  pip3 install <package>
+		They will install into the site-package directory
+		  /usr/local/lib/python3.8/site-packages
+		
+		See: https://docs.brew.sh/Homebrew-and-Python
+		==> Summary
+		🚀  /usr/local/Cellar/python@3.8/3.8.5: 4,331 files, 67MB
+		Removing: /usr/local/Cellar/python@3.8/3.8.4... (4,369 files, 67.8MB)
+		Removing: /Users/Michael/Library/Caches/Homebrew/python@3.8--3.8.4.catalina.bottle.tar.gz... (16.6MB)
+
+	brew cask upgrade
+		==> Auto-updated Homebrew!
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 1 formula.
+		==> Updated Casks
+		alt-tab
+		
+		==> No Casks to upgrade
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/ruby-build--20200520.tar.gz... (66.4KB)
+		Pruned 0 symbolic links and 2 directories from /usr/local
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Wed Jul 22 10:48:17 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 45c78ffe9 to bb90afbff.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 3 formulae.
+		==> Updated Casks
+		alt-tab
+		
+		==> Upgrading 1 outdated package:
+		ruby-build 20200520 -> 20200722
+		==> Upgrading ruby-build 20200520 -> 20200722 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200722.tar.gz
+		==> Downloading from https://codeload.github.com/rbenv/ruby-build/tar.gz/v20200722
+		==> ./install.sh
+		==> Caveats
+		ruby-build installs a non-Homebrew OpenSSL for each Ruby version installed and these are never upgraded.
+		
+		To link Rubies to Homebrew's OpenSSL 1.1 (which is upgraded) add the following
+		to your ~/.zshrc:
+		  export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+		
+		Note: this may interfere with building old versions of Ruby (e.g <2.4) that use
+		OpenSSL <1.1.
+		==> Summary
+		🚀  /usr/local/Cellar/ruby-build/20200722: 505 files, 251.8KB, built in 8 seconds
+		Removing: /usr/local/Cellar/ruby-build/20200520... (497 files, 248.0KB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Wed Jul 22 10:58:19 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 1 tap (homebrew/cask).
+		==> Updated Casks
+		clion
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Thu Jul 23 03:01:58 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from fb2e228e9 to c9fac7c28.
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> New Formulae
+		pipgrip
+		==> Updated Formulae
+		Updated 30 formulae.
+		==> Deleted Formulae
+		sflowtool
+		==> Updated Casks
+		font-fontawesome
+		kui
+		swiftpm-catalog
+		teamdrive
+		upic
+		visual-studio
+		yourkit-java-profiler
+		
+		==> Upgrading 2 outdated packages:
+		cmake 3.17.3 -> 3.18.0
+		numpy 1.19.0 -> 1.19.1
+		==> Upgrading cmake 3.17.3 -> 3.18.0 
+		==> Downloading https://homebrew.bintray.com/bottles/cmake-3.18.0.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/4822a39fbbb0e3b3c134bf7e09c89fec8da3ebd0de371de705cc62f4051d865a?response-content-disposition=attachment%3Bfilename%3D%22cmake-3.18.0.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvNDgyMmEzOWZiYmIwZTNiM2MxMzRiZjdlMDljODlmZWM4ZGEzZWJkMGRlMzcxZGU3MDVjYzYyZjQwNTFkODY1YT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmNtYWtlLTMuMTguMC5jYXRhbGluYS5ib3R0bGUudGFyLmd6JTIyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTk1NDk1NjU1fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=YLvwNVBJPZn6-h9o8oWCZoTwtIWL83t-YXUYRo8c6eDvA7CPj5yRkvRbTDPGiVgd5A57PjxqheojDwMk7c4SSc7RRL1UHy0D6omiDhJzpqoKUb3IhpzysLRO9Ajo~eelSbGjLytS2EZ5yE14uG8tROxIDzEgjsbAzcP~NXI1KivFCcA9vMOrmsy2qRDmK0ZCHhNXu-T7C~umhn5lGjlUQAFujiAvPmed8mXMEcHkCqtYpA9mVvN68T9q4R~fVd9eQoSCp-cKiweYjlweCQyZrCxb755cVZHf9ASpQgw3PE6uwdP~-gzSIKUR8ANz5yUYcF8XqFb1iRPgTEl~kM03nA__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring cmake-3.18.0.catalina.bottle.tar.gz
+		==> Caveats
+		Emacs Lisp files have been installed to:
+		  /usr/local/share/emacs/site-lisp/cmake
+		==> Summary
+		🚀  /usr/local/Cellar/cmake/3.18.0: 6,263 files, 60MB
+		Removing: /usr/local/Cellar/cmake/3.17.3... (6,162 files, 58.5MB)
+		Removing: /Users/Michael/Library/Caches/Homebrew/cmake--3.17.3.catalina.bottle.1.tar.gz... (16.3MB)
+		==> Upgrading numpy 1.19.0 -> 1.19.1 
+		==> Downloading https://homebrew.bintray.com/bottles/numpy-1.19.1.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/c457ff1ee5e3adf4c11c628aad45276db5bfd9cc18d245f8346ea9ed28d676a7?response-content-disposition=attachment%3Bfilename%3D%22numpy-1.19.1.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvYzQ1N2ZmMWVlNWUzYWRmNGMxMWM2MjhhYWQ0NTI3NmRiNWJmZDljYzE4ZDI0NWY4MzQ2ZWE5ZWQyOGQ2NzZhNz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMm51bXB5LTEuMTkuMS5jYXRhbGluYS5ib3R0bGUudGFyLmd6JTIyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTk1NDk1Njg5fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=L-3CX7M4jORm6wmnnE7OKTooN5TjptPkaL3k0ueOwmwCfQYGG8CzAuJ8M76mJyKW0HXwLyW~75E~fkMA9idAjBN8fIpfk5uGUwlqM6y3nrCVp3tTmH12g54E9Ao4Me23Nz77pQvtff2dlgUbGT9f1BQDXb~u78gmhAZ-5jN93aMW8be3KmLm2du-6p5hUUEgo2bYfXLtuifq~TuvdM8mzWLQBBt3f~J-aCq9FgsWztfBAOah68AZnbDQBVTL8ZFJUAcquPSP3rfGsMw2uv~9vjMxS-uzGvpDJlUM7l0V8FhZszjmVEdTB0ggMqgfntgEUdyJMkvsOkCzV0jGoWo-1A__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring numpy-1.19.1.catalina.bottle.tar.gz
+		🚀  /usr/local/Cellar/numpy/1.19.1: 489 files, 15.7MB
+		Removing: /usr/local/Cellar/numpy/1.19.0... (489 files, 15.7MB)
+		Removing: /Users/Michael/Library/Caches/Homebrew/numpy--1.19.0.catalina.bottle.tar.gz... (4.2MB)
+		==> Caveats
+		==> cmake
+		Emacs Lisp files have been installed to:
+		  /usr/local/share/emacs/site-lisp/cmake
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Thu Jul 23 09:00:07 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		argo
+		==> Updated Formulae
+		Updated 18 formulae.
+		==> Updated Casks
+		blender
+		carbon-copy-cloner
+		paperspace
+		plex
+		xamarin-ios
+		xamarin-mac
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Thu Jul 23 12:28:51 PM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 2 formulae.
+		==> Updated Casks
+		activedock
+		apparency
+		chronicle
+		fantastical
+		grids
+		logos
+		mellow
+		protonvpn
+		proxyman
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Fri Jul 24 11:49:50 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from c9fac7c28 to 1b7c498d3.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		chalk-cli
+		duckscript
+		functionalplus
+		ldpl
+		logcli
+		==> Updated Formulae
+		Updated 80 formulae.
+		==> Updated Casks
+		airy
+		anydo
+		beekeeper-studio
+		browserstacklocal
+		cacher
+		camo-studio
+		clashxr
+		datadog-agent
+		dbschema
+		eme
+		epichrome
+		feishu
+		file-juicer
+		framer
+		geekbench
+		geneious-prime
+		imazing
+		intune-company-portal
+		keep-it
+		lark
+		lbry
+		loom
+		mendeley-reference-manager
+		microsoft-edge
+		mochi
+		mockoon
+		omnigraffle
+		omnioutliner
+		omniplan
+		pgadmin4
+		podman
+		proclaim
+		pycharm-ce
+		pycharm-ce-with-anaconda-plugin
+		pycharm-with-anaconda-plugin
+		reaper
+		roboform
+		rotato
+		sip
+		slack
+		slic3r
+		soundsource
+		thebrain
+		tiger-trade
+		touchdesigner
+		vellum
+		vyprvpn
+		wormhole
+		zoc
+		zotero
+		
+		==> Upgrading 2 outdated packages:
+		gnu-getopt 2.35.2 -> 2.36
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		==> Downloading from https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/gnu-getopt--2.35.2.catalina.bottle.tar.gz... (55KB)
+		Removing: /Users/Michael/Library/Caches/Homebrew/nspr--4.26.catalina.bottle.tar.gz... (346.6KB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sat Jul 25 03:02:01 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 1b7c498d3 to e7006beef.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		golangci-lint
+		gradle-profiler
+		wgcf
+		==> Updated Formulae
+		Updated 28 formulae.
+		==> Updated Casks
+		backblaze
+		blue-jeans
+		cocktail
+		cutter
+		diskcatalogmaker
+		flipper
+		fork
+		goodsync
+		ibored
+		insync
+		kite
+		ledger-live
+		mumu
+		netron
+		outline
+		podman
+		postman
+		prepros
+		publish-or-perish
+		qownnotes
+		runjs
+		runway
+		superproductivity
+		tencent-meeting
+		tunnelblick
+		typora
+		uu-booster
+		wickrme
+		wormhole
+		yammer
+		youdaonote
+		zettlr
+		
+		==> Upgrading 3 outdated packages:
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/nss--3.54.catalina.bottle.tar.gz... (12.5MB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sat Jul 25 09:00:05 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from e7006beef to c42bcf739.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 6 formulae.
+		==> Updated Casks
+		chromium
+		cryo
+		envkey
+		
+		==> Upgrading 3 outdated packages:
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sun Jul 26 03:03:04 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from c42bcf739 to ae5825577.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		yj
+		==> Updated Formulae
+		Updated 46 formulae.
+		==> Updated Casks
+		adobe-dng-converter
+		amazon-workspaces
+		brave-browser
+		bria
+		chronicle
+		dashcam-viewer
+		drawio
+		framer
+		free-download-manager
+		hermit-crab
+		marvin
+		metashapepro
+		pagico
+		portfolioperformance
+		porting-kit
+		qownnotes
+		refined-github-safari
+		resolume-arena
+		sigil
+		stretchly
+		subsync
+		superproductivity
+		swifty
+		tencent-lemon
+		tower
+		webcatalog
+		
+		==> Upgrading 3 outdated packages:
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sun Jul 26 06:21:34 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from ae5825577 to fdbb2ac16.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 6 formulae.
+		==> Updated Casks
+		birdfont
+		telegram
+		telegram-desktop
+		
+		==> Upgrading 3 outdated packages:
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sun Jul 26 09:00:05 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 6 formulae.
+		==> Updated Casks
+		munki
+		
+		==> Upgrading 3 outdated packages:
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sun Jul 26 08:52:01 PM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from fdbb2ac16 to 886d2edec.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 19 formulae.
+		==> Updated Casks
+		adobe-dng-converter
+		boop
+		dashcam-viewer
+		gloomhaven-helper
+		gnucash
+		hbuilderx
+		icollections
+		mochi
+		packetsender
+		preferencecleaner
+		qownnotes
+		receipts
+		remotix-agent
+		rsyncosx
+		stats
+		termius
+		thorium
+		universal-media-server
+		ximalaya
+		
+		==> Upgrading 3 outdated packages:
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Jul 27 03:03:02 AM 2020
+	brew upgrade
+		==> Upgrading 3 outdated packages:
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+	brew update
+		
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/json-c--0.14.catalina.bottle.tar.gz... (61.7KB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Jul 27 03:03:02 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		clair
+		never
+		==> Updated Formulae
+		Updated 89 formulae.
+		==> Updated Casks
+		amadeus-pro
+		cocktail
+		expressvpn
+		freeorion
+		timche-gmail-desktop
+		webcatalog
+		
+		==> Upgrading 4 outdated packages:
+		json-c 0.14 -> 0.15
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Jul 27 09:00:08 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 886d2edec to 8b1158478.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 1220 formulae.
+		==> Updated Casks
+		0-ad
+		010-editor
+		0xed
+		115browser
+		1clipboard
+		1password
+		1password-cli
+		360safe
+		3cxphone
+		3dgenceslicer
+		4k-slideshow-maker
+		4k-stogram
+		4k-video-downloader
+		4k-video-to-mp3
+		4k-youtube-to-mp3
+		4peaks
+		5kplayer
+		8x8-video-meetings
+		a-better-finder-attributes
+		a-better-finder-rename
+		a-slower-speed-of-light
+		ableton-live
+		ableton-live-intro
+		ableton-live-lite
+		ableton-live-standard
+		ableton-live-suite
+		abricotine
+		abscissa
+		abstract
+		accessmenubarapps
+		accurics
+		ace-link
+		acorn
+		acousticbrainz-gui
+		acquia-dev
+		acronis-true-image
+		acslogo
+		activedock
+		activitywatch
+		actual-odbc-pack
+		adafruit-arduino
+		adapter
+		adguard
+		adium
+		adobe-acrobat-pro
+		adobe-acrobat-reader
+		adobe-air
+		adobe-air-sdk
+		adobe-connect
+		adobe-creative-cloud
+		adobe-creative-cloud-cleaner-tool
+		adobe-digital-editions
+		adobe-dng-converter
+		adobe-lens-profile-creator
+		adoptopenjdk
+		advancedrestclient
+		adventure
+		adware-removal-tool
+		aegisub
+		aerial
+		aether
+		aexol-remote-mouse
+		after-dark-classic
+		agenda
+		agfeo-dashboard
+		aimersoft-video-converter-ultimate
+		air-connect
+		air-video-server-hd
+		aircall
+		airdisplay
+		airdroid
+		airflow
+		airfoil
+		airmedia
+		airparrot
+		airpass
+		airqmon
+		airserver
+		airtable
+		airtame
+		airtool
+		airtrash
+		airunlock
+		airy
+		aja-system-test
+		alacritty
+		aladin
+		alchemy
+		alephone
+		alfaview
+		alfred
+		algodoo
+		alinof-timer
+		aliwangwang
+		aliworkbench
+		all-in-one-messenger
+		alloy
+		alt-c
+		alt-tab
+		altair-graphql-client
+		altdeploy
+		alternote
+		altserver
+		alva
+		amadeus-pro
+		amadine
+		amazon-chime
+		amazon-music
+		amazon-photos
+		amazon-workdocs
+		amazon-workspaces
+		amd-power-gadget
+		amethyst
+		amitv87-pip
+		amm
+		ammonite
+		amorphousdiskmark
+		ampps
+		anaconda
+		ananas-analytics-desktop-edition
+		android-file-transfer
+		android-messages
+		android-ndk
+		android-platform-tools
+		android-sdk
+		android-studio
+		androidtool
+		angband
+		angry-ip-scanner
+		anka-flow
+		anki
+		ankiapp-anki
+		anonym
+		anonymousvpn
+		another-redis-desktop-manager
+		ansible-dk
+		antconc
+		anvil
+		anybar
+		anydesk
+		anydo
+		anylist
+		anytrans
+		anytrans-for-android
+		anzeigenchef
+		ao
+		apache-couchdb
+		apache-directory-studio
+		apk-icon-editor
+		app-cleaner
+		app-tamer
+		apparency
+		appcleaner
+		appcode
+		appdelete
+		appgate-sdp-client
+		appgrid
+		appium
+		apple-events
+		apple-juice
+		applepi-baker
+		apppolice
+		appstore-quickview
+		appstudio
+		apptivate
+		apptrap
+		appzapper
+		aptanastudio
+		aptible
+		aqua-data-studio
+		aquamacs
+		aquaskk
+		aquaterm
+		araxis-merge
+		archipelago
+		archiver
+		arduino
+		aria-maestosa
+		aria2d
+		aria2gui
+		ariang
+		ark-desktop-wallet
+		armitage
+		armory
+		arq
+		arq-cloud-backup
+		arrayfire
+		arrsync
+		art-directors-toolkit
+		artisan
+		artpip
+		asc-timetables
+		ascension
+		asciidocfx
+		aspera-connect
+		asset-catalog-tinkerer
+		astah-professional
+		astro-command-center
+		astropad
+		astropad-studio
+		atext
+		atlantis
+		atlauncher
+		atok
+		atom
+		au-lab
+		audio-hijack
+		audiobook-builder
+		audiobookbinder
+		audioscrobbler
+		audioslicer
+		audirvana
+		augur
+		auristor-client
+		aurora
+		aurora-hdr
+		auryo
+		authy
+		autodesk-fusion360
+		autodmg
+		autofirma
+		automute
+		autopkgr
+		autovolume
+		autumn
+		avast-secureline-vpn
+		avast-security
+		avg-antivirus
+		aviatrix-vpn-client
+		avibrazil-rdm
+		avidcodecsle
+		avidemux
+		avira-antivirus
+		avitools
+		avocode
+		avogadro
+		awa
+		aware
+		awareness
+		awips-python
+		aws-vault
+		aws-vpn-client
+		axe-edit-iii
+		axe-electrum
+		axure-rp
+		azure-data-studio
+		babeledit
+		back-in-time
+		backblaze
+		backblaze-downloader
+		background-music
+		backlog
+		backuploupe
+		badlion-client
+		baiducloud
+		baiduinput
+		baidunetdisk
+		balance-lock
+		balenaetcher
+		ballast
+		balsamiq-wireframes
+		bandage
+		bankid
+		banking-4
+		banktivity
+		banshee
+		baretorrent
+		baritone
+		barrier
+		bartender
+		barxtemp
+		base
+		basecamp
+		basictex
+		batchmod
+		bathyscaphe
+		batteries
+		battery-guardian
+		battery-report
+		battle-net
+		battlescribe
+		baudline
+		bbc-iplayer-downloads
+		bbedit
+		bdash
+		bdinfo
+		beacon-scanner
+		beaker-browser
+		beamer
+		bean
+		beardedspice
+		bearychat
+		beatport-pro
+		beatunes
+		beautune
+		bee
+		beekeeper-studio
+		beersmith
+		beoplay-software-update
+		bestres
+		betaflight-configurator
+		better-window-manager
+		bettertouchtool
+		betterzip
+		between
+		betwixt
+		beyond-compare
+		bfxr
+		bibdesk
+		big-mean-folder-machine
+		bilibili
+		bilimini
+		binary-ninja
+		bingpaper
+		bino
+		biopassfido
+		birdfont
+		biscuit
+		bisq
+		bit-slicer
+		bitbar
+		bitcoin-core
+		bitmessage
+		bitrix24
+		bitshares
+		bitwarden
+		bitwig-studio
+		blackhole
+		blender
+		blheli-configurator
+		blink1control
+		blisk
+		blitz
+		blizz
+		blobby-volley2
+		blockblock
+		blockstack
+		blocs
+		bloodhound
+		bloomrpc
+		blooo
+		blu-ray-player
+		blu-ray-player-pro
+		blue-jeans
+		blue-jeans-browser-plugin
+		bluefish
+		bluegriffon
+		blueharvest
+		bluej
+		bluesense
+		bluestacks
+		bluetility
+		blurred
+		bob
+		boinc
+		bonitastudiocommunity
+		bonjeff
+		bonjour-browser
+		bookends
+		bookmacster
+		boom
+		boom-3d
+		boonzi
+		boop
+		boostnote
+		bootchamp
+		bootstrap-studio
+		bootxchanger
+		borgbackup
+		bossa
+		bot-framework-emulator
+		bowtie
+		box-drive
+		box-edit
+		box-notes
+		box-sync
+		boxcryptor
+		boxer
+		boxofsnoo-fairmount
+		boxy-suite
+		brackets
+		brain-workshop
+		brainfm
+		brave-browser
+		breakaway
+		breaktimer
+		brewservicesmenubar
+		brewtarget
+		bria
+		bricklink-partdesigner
+		bricklink-studio
+		bricksmith
+		brightness
+		brightness-sync
+		brisk
+		brisync
+		brl-cad-mged
+		brogue
+		brook
+		brooklyn
+		browserosaurus
+		browserstacklocal
+		btcpayserver-vault
+		bubo
+		buildsettingextractor
+		bunch
+		bunqcommunity-bunq
+		burn
+		burp-suite
+		busycal
+		busycontacts
+		butler
+		butt
+		butter
+		buttercup
+		bwana
+		bzflag
+		c0re100-qbittorrent
+		cabal
+		cacher
+		caffeine
+		cajviewer
+		cakebrew
+		calcservice
+		calendar-366
+		calibre
+		camed
+		camera-live
+		camerabag-photo
+		camo-studio
+		camtasia
+		camunda-modeler
+		canary
+		candybar
+		cantata
+		caprine
+		captain
+		captin
+		caption
+		capto
+		carbon-copy-cloner
+		cardhop
+		caret
+		cashnotify
+		catalina-cache-cleaner
+		catch
+		catlight
+		cave-story
+		ccleaner
+		ccmenu
+		cctalk
+		cd-to
+		celestialteapot-runway
+		celldesigner
+		cellery
+		cellprofiler
+		cemu
+		cerebro
+		cevelop
+		chai
+		chalk
+		chameleon-ssd-optimizer
+		charles
+		charlessoft-timetracker
+		chatmate-for-facebook
+		chatmate-for-whatsapp
+		chatology
+		chatty
+		chatwork
+		cheatsheet
+		checkra1n
+		cheetah3d
+		chef-workstation
+		chemdoodle
+		chessx
+		chiaki
+		chicken
+		chirp
+		chocolat
+		choosy
+		chrome-devtools
+		chrome-remote-desktop-host
+		chromedriver
+		chromium
+		chronicle
+		chronoagent
+		chronos
+		chronosync
+		chronycontrol
+		chrysalis
+		cinch
+		cinder
+		cinebench
+		cisco-proximity
+		cisdem-data-recovery
+		cisdem-document-reader
+		cisdem-pdf-converter-ocr
+		cisdem-pdfmanagerultimate
+		cisdem-pdftoolkit
+		citra
+		cityofzion-neon
+		ckan
+		ckb-next
+		clamxav
+		clashx
+		clashxr
+		classroom-assistant
+		clean-me
+		cleanapp
+		cleanmymac
+		cleanshot
+		cleartext
+		clementine
+		clickcharts
+		clickup
+		clion
+		clip-studio-paint
+		clipbuddy
+		clipgrab
+		clipy
+		cliqz
+		clix
+		cljstyle
+		clock
+		clock-bar
+		clockify
+		clocksaver
+		clone-hero
+		clonk
+		cloud-pbx
+		cloudapp
+		cloudcompare
+		cloudmounter
+		cloudup
+		cloudytabs
+		clover-configurator
+		cmake
+		cmd-eikana
+		cmdtap
+		cncjs
+		cncnet
+		coccinellida
+		coccoc
+		cockatrice
+		cocktail
+		cocoapods
+		cocoarestclient
+		cocoaspell
+		coconutbattery
+		coconutid
+		coda
+		code-notes
+		code42-crashplan
+		codeexpander
+		codekit
+		codelite
+		coderunner
+		codespace
+		cold-turkey-blocker
+		collabshot
+		color-oracle
+		colormunki-photo
+		colorpicker-developer
+		colorpicker-materialdesign
+		colorpicker-propicker
+		colorpicker-skalacolor
+		colorsnapper
+		colortester
+		colour-contrast-analyser
+		combine-pdfs
+		comictagger
+		comma-chameleon
+		command-tab-plus
+		commander-one
+		commandq
+		comparemerge
+		composercat
+		compositor
+		conferences
+		connectiq
+		connectmenow
+		console
+		container-ps
+		contexts
+		continuity-activation-tool
+		contraste
+		controllermate
+		controlplane
+		cookie
+		cool-retro-term
+		coolterm
+		copyclip
+		copyq
+		coqide
+		cord
+		core-data-editor
+		corelocationcli
+		cornercal
+		cornerstone
+		corona-tracker
+		coronasdk
+		corretto
+		coteditor
+		couchbase-server-community
+		couchbase-server-enterprise
+		couchpotato
+		couleurs
+		countdown
+		coverload
+		cozy-drive
+		cpuinfo
+		cr
+		craftmanager
+		create-recovery-partition-installer
+		createuserpkg
+		creepy
+		cricut-design-space
+		criptext
+		cronnix
+		crossover
+		crosspack-avr
+		crunch
+		crushftp
+		cryo
+		crypt
+		crypter
+		cryptomator
+		cryptr
+		crystalmaker
+		crystax-ndk
+		cscreen
+		cubicsdr
+		cuda-z
+		cumulus
+		cura-lulzbot
+		curio
+		cursorcerer
+		cursorsense
+		customshortcuts
+		cutbox
+		cuteclips
+		cutesdr
+		cutter
+		cyberduck
+		cyberghost-vpn
+		cycling74-max
+		cytoscape
+		daedalus
+		daedalus-mainnet
+		daily-english-listening
+		daisydisk
+		dangerzone
+		darktable
+		darwindumper
+		dash
+		dash-dash
+		dashcam-viewer
+		dashlane
+		dat
+		data-integration
+		data-rescue
+		data-science-studio
+		datadog-agent
+		datagraph
+		datagrip
+		datazenit
+		datovka
+		datweatherdoe
+		davmail
+		day-o
+		db-browser-for-sqlite
+		dbeaver-community
+		dbeaver-enterprise
+		dbglass
+		dbkoda
+		dbngin
+		dbschema
+		dbvisualizer
+		dcommander
+		dcp-o-matic
+		dcp-o-matic-batch-converter
+		dcp-o-matic-encode-server
+		dcp-o-matic-kdm-creator
+		dcp-o-matic-player
+		dcv-viewer
+		dd-utility
+		deadbolt
+		deathtodsstore
+		debookee
+		deckset
+		deco
+		decrediton
+		deeper
+		deepgit
+		deepl
+		deepstream
+		deezer
+		default-folder-x
+		dejalu
+		delayedlauncher
+		delicious-library
+		delta
+		deltawalker
+		deluge
+		dendroscope
+		denemo
+		desktoputility
+		desmume
+		detectx-swift
+		detexify
+		devdocs
+		developerexcuses
+		devolo-cockpit
+		devonagent
+		devonthink
+		dexed
+		dhs
+		dia
+		dialpad
+		diashapes
+		dictater
+		dictcc-en-de-dictionary-plugin
+		dictionaries
+		dictunifier
+		difffork
+		diffmerge
+		digikam
+		dingtalk
+		disablemonitor
+		discord
+		discretescroll
+		disk-arbitrator
+		disk-drill
+		disk-inventory-x
+		diskcatalogmaker
+		diskmaker-x
+		diskwave
+		displaperture
+		displaycal
+		dissenter-browser
+		divvy
+		djay-pro
+		djv
+		djview
+		dmenu-mac
+		dmm-player
+		dmm-player-for-chrome
+		do-not-disturb
+		docear
+		docker
+		docker-toolbox
+		dockey
+		dockstation
+		dogecoin
+		dolphin
+		doly
+		domainbrain
+		doomrl
+		doomsday-engine
+		dosbox
+		dosbox-x
+		doteditor
+		dotnet
+		dotnet-sdk
+		double-commander
+		doubletwist
+		downie
+		doxie
+		doxygen
+		dozer
+		dragthing
+		drama
+		drawbot
+		drawio
+		dremel-slicer
+		drivedx
+		drivethrurpg
+		droidid
+		drop-to-gif
+		dropbox
+		dropbox-encore
+		dropdmg
+		dropletmanager
+		droplr
+		dropshare
+		dteoh-devdocs
+		duckietv
+		duefocus
+		duet
+		dukto
+		dungeon-crawl-stone-soup-console
+		dungeon-crawl-stone-soup-tiles
+		duo-connect
+		dupeguru
+		duplicacy
+		duplicacy-web-edition
+		duplicate-annihilator-for-photos
+		duplicati
+		dupscanub
+		dust3d
+		dusty
+		dvdstyler
+		dwarf-fortress
+		dwarf-fortress-lmp
+		dwgsee
+		dwihn0r-keepassx
+		dyn-updater
+		dynalist
+		dynamic-dark-mode
+		dynamodb-local
+		dynobase
+		eaccess
+		eagle
+		eaglefiler
+		ealeksandrov-cd-to
+		easy-move-plus-resize
+		easyeda
+		easyfind
+		easytether
+		ebibookreader
+		ebmac
+		eclipse-cpp
+		eclipse-dsl
+		eclipse-ide
+		eclipse-installer
+		eclipse-java
+		eclipse-javascript
+		eclipse-jee
+		eclipse-modeling
+		eclipse-php
+		eclipse-platform
+		eclipse-rcp
+		eclipse-testing
+		eddie
+		edenmath
+		edex-ui
+		edfbrowser
+		editaro
+		edrawmax
+		eggplant
+		eiskaltdcpp
+		ejector
+		elan
+		elasticwolf
+		electerm
+		electorrent
+		electric-sheep
+		electrocrud
+		electron
+		electron-api-demos
+		electron-cash
+		electron-fiddle
+		electronic-wechat
+		electronmail
+		electrum
+		electrum-ltc
+		electrumsv
+		element
+		elgiganten-jotta
+		elmedia-player
+		eloston-chromium
+		elpass
+		emacs
+		emacsclient
+		emailchemy
+		emby-server
+		emclient
+		eme
+		emojipedia
+		empoche
+		encryptme
+		encryptr
+		endless-sky
+		endnote
+		endurance
+		energia
+		energybar
+		enfusegui
+		engine-prime
+		enjoyable
+		enolsoft-chm-view
+		enpass
+		entropy
+		envkey
+		enzymex
+		epic
+		epic-games
+		epichrome
+		epoch-flip-clock
+		epub-to-pdf
+		epubmdimporter
+		epubquicklook
+		eqmac
+		eset-cyber-security-pro
+		espresso
+		ethereum-wallet
+		etrecheckpro
+		eudic
+		eurkey
+		eve-launcher
+		eventstore
+		evernote
+		everweb
+		evolve-ip-uc-one
+		evom
+		exactscan
+		exfalso
+		exifrenamer
+		exist-db
+		exodus
+		expandrive
+		explorer
+		expo-xde
+		expressions
+		expressscribe
+		expressvpn
+		extraterm
+		ezip
+		facebook-ios-sdk
+		factor
+		fake
+		falcon-sql-client
+		family-tree-builder
+		fanny
+		fantastical
+		fantasy-grounds
+		fantasy-map-generator
+		farrago
+		fastonosql
+		fastrawviewer
+		fastscripts
+		fauxpas
+		favro
+		faxbot
+		fbreader
+		fedora-media-writer
+		feed-the-beast
+		feem
+		feishu
+		fenix
+		ferdi
+		fetch
+		ff-works
+		figma
+		figmadaemon
+		figtree
+		fiji
+		file-juicer
+		filebot
+		filedrop
+		filemaker-pro-advanced
+		filemon
+		filepane
+		final-cut-library-manager
+		find-any-file
+		find-empty-folders
+		findergo
+		finereader
+		fing-cli
+		finicky
+		firealpaca
+		firebase-admin
+		firebird-emu
+		firecamp
+		firefox
+		firestorm
+		firestormos
+		fireworks
+		fiscript
+		fission
+		fitbit-os-simulator
+		fl-studio
+		flame
+		flash-decompiler-trillix
+		flash-npapi
+		flash-player
+		flash-player-debugger
+		flash-player-debugger-npapi
+		flash-player-debugger-ppapi
+		flash-ppapi
+		flashlighttool
+		fldigi
+		flexiglass
+		flic
+		flickr-uploadr
+		flightgear
+		flip4mac
+		flipper
+		fliqlo
+		flirc
+		flixtools
+		flock
+		flotato
+		flow
+		flow-e
+		flowdock
+		flowsync
+		fluid
+		flume
+		fluor
+		flux
+		fluxcenter
+		flvcd-bigrats
+		fly
+		flycut
+		fm3-edit
+		fman
+		fme-desktop
+		focus
+		focus-booster
+		focusatwill
+		focused
+		focuswriter
+		fog
+		folding-at-home
+		foldingtext
+		foldit
+		folx
+		fontbase
+		fontexplorer-x-pro
+		fontforge
+		fontgoggles
+		fontlab
+		fontplop
+		fontstand
+		force-paste
+		forecast
+		foreman
+		fork
+		forklift
+		forticlient
+		foxitreader
+		foxmail
+		fpcsrc
+		fractal-bot
+		fraise
+		framer
+		framer-x
+		franz
+		freac
+		fredm-fuse
+		free-download-manager
+		free-ruler
+		freecad
+		freecol
+		freedom
+		freedome
+		freemind
+		freenettray
+		freeorion
+		freeplane
+		freesmug-chromium
+		freeter
+		freetube
+		freeyourmusic
+		freeze
+		frescobaldi
+		frhelper
+		fritzing
+		fromscratch
+		front
+		fs-uae
+		fsmonitor
+		fsnotes
+		fstream
+		fugu
+		functionflip
+		funter
+		fuse
+		futuniuniu
+		fuwari
+		fuzzyclock
+		g-desktop-suite
+		gameranger
+		gameshow
+		ganache
+		ganttproject
+		garagebuy
+		garagesale
+		gargoyle
+		gas-mask
+		gb-studio
+		gcc-arm-embedded
+		gcollazo-mongodb
+		gdisk
+		gdlauncher
+		geany
+		gearboy
+		gearsystem
+		geburtstagschecker
+		geekbench
+		geektool
+		gemini
+		geneious-prime
+		genymotion
+		geogebra
+		geomap
+		geotag
+		geotag-photos-pro
+		geotagger
+		geph
+		gephi
+		get-backup-pro
+		get-iplayer-automator
+		get-lyrical
+		getrasplex
+		gfortran
+		gfxcardstatus
+		ghdl
+		ghidra
+		ghost
+		ghost-browser
+		ghosttile
+		gifcapture
+		gifox
+		gifrocket
+		gifs
+		gimp
+		gingko
+		gisto
+		git-it
+		gitahead
+		gitblade
+		gitbook
+		gitbox
+		gitee
+		giteye
+		gitfiend
+		gitfinder
+		gitfox
+		github
+		githubpulse
+		gitify
+		gitkraken
+		gitnote
+		gitpigeon
+		gitscout
+		gitter
+		gitup
+		gitx
+		glance
+		glimmerblocker
+		globalmeet
+		gloomhaven-helper
+		gltfquicklook
+		glyphfinder
+		glyphs
+		gmail-notifier
+		gmvault
+		gns3
+		gnucash
+		go-agent
+		go-server
+		go2shell
+		go64
+		gobdokumente
+		godot
+		godot-mono
+		gog-galaxy
+		gogs
+		goland
+		goldencheetah
+		goldendict
+		golly
+		goodsync
+		goofy
+		google-ads-editor
+		google-backup-and-sync
+		google-chat
+		google-chrome
+		google-cloud-sdk
+		google-drive-file-stream
+		google-earth-pro
+		google-featured-photos
+		google-hangouts
+		google-japanese-ime
+		google-photos-backup-and-sync
+		google-trends
+		google-web-designer
+		googleappengine
+		gopanda
+		gopass-ui
+		gotiengviet
+		gpg-suite
+		gpg-suite-no-mail
+		gpg-suite-pinentry
+		gpg-sync
+		gplates
+		gpodder
+		gpower
+		gps4cam
+		gpxsee
+		gqrx
+		grads
+		grafx
+		grammarly
+		gramps
+		grandperspective
+		grandtotal
+		graphicconverter
+		graphiql
+		graphql-ide
+		graphql-playground
+		graphsketcher
+		gray
+		greenfoot
+		gretl
+		grid-clock
+		gridea
+		grids
+		grisbi
+		growlnotify
+		gswitch
+		gtkwave
+		guijs
+		guild-wars2
+		guitar-pro
+		gulp
+		guppy
+		gureumkim
+		gyazmail
+		gyazo
+		gzdoom
+		ha-menu
+		hacker-menu
+		hackhands
+		hackintool
+		hackmd
+		hakuneko
+		hammerspoon
+		hancock
+		hand-mirror
+		handbrake
+		handbrakebatch
+		hands-off
+		handshaker
+		handylock
+		happygrep
+		haptic-touch-bar
+		haptickey
+		harbor
+		harmony
+		haroopad
+		harvest
+		hashbackup
+		hazel
+		hazeover
+		hbuilder
+		hbuilderx
+		hdrmerge
+		headset
+		heaven
+		hedgewars
+		heimdall-suite
+		helium
+		hermes
+		hermit-crab
+		hessenbox-da
+		hex
+		hex-fiend
+		hey
+		hfsleuth
+		hiarcs-chess-explorer
+		hiddenbar
+		historyhound
+		hma-pro-vpn
+		hockey
+		hocus-focus
+		holavpn
+		home-inventory
+		honer
+		honto
+		hookshot
+		hopper-debugger-server
+		horndis
+		horos
+		hotswitch
+		houdahspot
+		houseparty
+		hp-eprint
+		hp-prime
+		hstracker
+		http-toolkit
+		hubic
+		hubstaff
+		hue-topia
+		hugin
+		hwsensors
+		hydrogen
+		hype
+		hyper
+		hyperbackupexplorer
+		hyperdock
+		hyperswitch
+		i1profiler
+		ibabel
+		ibackup
+		ibackup-viewer
+		ibackupbot
+		ibettercharge
+		ibm-cloud-cli
+		ibored
+		icab
+		icanhazshortcut
+		icc
+		iceberg
+		icefloor
+		icestudio
+		icloud-control
+		icollections
+		iconizer
+		iconjar
+		icons
+		icons8
+		icq
+		id3-editor
+		idafree
+		idagio
+		idefrag
+		idisplay
+		idrive
+		ieasemusic
+		iexplorer
+		ifunbox
+		igdm
+		igetter
+		iglance
+		igv
+		iina
+		iina-plus
+		ilok-license-manager
+		ilya-birman-typography-layout
+		image-tool
+		image2icon
+		imagealpha
+		imagej
+		imagemin
+		imageoptim
+		imaging-edge
+		imazing
+		imazing-mini
+		imgotv
+		imgur
+		imitone
+		imo
+		impactor
+		inav-configurator
+		inboard
+		indigo
+		infoflow
+		inform
+		inkdrop
+		inkscape
+		inky
+		inloop-qlplayground
+		insomnia
+		insomnia-designer
+		inssider
+		install-disk-creator
+		instant-articles-builder
+		instasizer
+		insync
+		integrity
+		intel-haxm
+		intel-power-gadget
+		intel-psxe-ce-c-plus-plus
+		intellij-idea
+		intellij-idea-ce
+		interarchy
+		intune-company-portal
+		invesalius
+		invisiblix
+		invisionsync
+		invisor-lite
+		inxmail-professional
+		iograph
+		ionic-lab
+		ioquake3
+		ios-app-signer
+		ios-console
+		ios-saver
+		iota-wallet
+		ip-in-menu-bar
+		ipa-manager
+		ipartition
+		ipe
+		ipepresenter
+		ipfs
+		iphoto-library-manager
+		ipremoteutility
+		ipsecuritas
+		ipvanish-vpn
+		ipynb-quicklook
+		irccloud
+		ireadfast
+		iridient-developer
+		iridium
+		irip
+		iris
+		iriunwebcam
+		isabelle
+		ishowu
+		ishowu-instant
+		isimulator
+		islide
+		isolator
+		istat-menus
+		istat-server
+		isteg
+		istumbler
+		isubtitle
+		iswiff
+		isyncr
+		itau
+		itch
+		iterm2
+		ithoughtsx
+		itk-snap
+		itools
+		itrash
+		itsycal
+		itubedownloader
+		itunes-producer
+		itunes-volume-control
+		ivideonclient
+		ivideonserver
+		ivolume
+		ivpn
+		izip
+		j
+		jabref
+		jabt-flow
+		jad
+		jaikoz
+		jaksta-media-recorder
+		jalbum
+		jalview
+		jameica
+		james
+		jamf-migrator
+		jami
+		jamovi
+		jandi
+		jasp
+		jasper
+		java
+		jaxx-liberty
+		jazzup
+		jbidwatcher
+		jbrowse
+		jclasslib-bytecode-viewer
+		jcryptool
+		jd-gui
+		jdiskreport
+		jdk-mission-control
+		jdownloader
+		jedit
+		jedit-omega
+		jellyfin
+		jenkins-menu
+		jeromelebel-mongohub
+		jet
+		jetbrains-toolbox
+		jettison
+		jewelrybox
+		jgrasp
+		jietu
+		jiggler
+		jing
+		jira-client
+		jitouch
+		jitsi
+		jitsi-meet
+		jmc
+		joinme
+		joker
+		jollysfastvnc
+		joplin
+		joshjon-nocturnal
+		josm
+		journey
+		jprofiler
+		jqbx
+		jsui
+		jtool
+		jtool2
+		jubler
+		juicebar
+		julia
+		jump
+		jumpcut
+		jumpshare
+		jupyter-notebook-ql
+		jupyter-notebook-viewer
+		kactus
+		kafka-tool
+		kakapo
+		kaku
+		kaleidoscope
+		kap
+		kapitainsky-rclone-browser
+		kapow
+		karabiner-elements
+		katalon-studio
+		katana
+		kawa
+		keep
+		keep-it
+		keepassx
+		keepassxc
+		keeper-password-manager
+		keepingyouawake
+		keeweb
+		keka
+		kekadefaultapp
+		kern
+		kext-updater
+		kext-utility
+		kextviewr
+		key-codes
+		keybase
+		keyboard-cleaner
+		keyboard-lock
+		keyboard-maestro
+		keyboardcleantool
+		keycast
+		keycastr
+		keycue
+		keyfinder
+		keymanager
+		keypad-layout
+		keyshot
+		keystore-explorer
+		kicad
+		kid3
+		kindle
+		kindle-comic-converter
+		kindle-comic-creator
+		kindle-previewer
+		kindlegen
+		kinza
+		kite
+		kitematic
+		kitty
+		kiwi-for-g-suite
+		kiwix
+		kk7ds-python-runtime
+		kkbox
+		klatexformula
+		klayout
+		klokki
+		kmbmpdc
+		kmplayer
+		knime
+		knock
+		knockknock
+		knotes
+		knox
+		knuff
+		koa11y
+		koala
+		kobo
+		kode54-cog
+		kodelife
+		kodi
+		komet
+		komodo-edit
+		komodo-ide
+		kotlin-native
+		krisp
+		krita
+		ksdiff
+		kstars
+		kube-cluster
+		kube-forwarder
+		kubecontext
+		kubernetic
+		kugoumusic
+		kui
+		kvirc
+		lab
+		lacona
+		lando
+		lantern
+		laravel-kit
+		lark
+		lastfm
+		lastpass
+		latest
+		latexdraw
+		latexit
+		launchbar
+		launchcontrol
+		launchpad-manager
+		launchrocket
+		launchy
+		laverna
+		lazarus
+		lazpaint
+		lazy
+		lbry
+		league-displays
+		league-of-legends
+		leanote
+		leap-motion
+		ledger-live
+		leech
+		lego-digital-designer
+		lego-mindstorms-ev3
+		lehreroffice
+		leksah
+		lektor
+		lelivrescolairefr
+		lens
+		leocad
+		lepton
+		levelator
+		librecad
+		libreelec-usb-sd-creator
+		libreoffice
+		libreoffice-language-pack
+		librepcb
+		licecap
+		license-control-center
+		licensed
+		liclipse
+		lidarr
+		lifesize
+		lightgallery
+		lighting
+		lightpaper
+		lightproxy
+		lighttable
+		lightworks
+		lilypond
+		lincastor
+		line-bot-designer
+		linear
+		linear-linear
+		linein
+		lingo
+		lingon-x
+		linkliar
+		linphone
+		listen1
+		litecoin
+		liteicon
+		liteide
+		little-snitch
+		littlesecrets
+		livereload
+		livetail
+		liya
+		lmms
+		loading
+		loaf
+		local
+		localdev
+		localizationeditor
+		lockdown
+		locklizard-safeguard-viewer
+		lockrattler
+		logdna-agent
+		logdna-cli
+		logicsniffer
+		loginputmac
+		logisim
+		logisim-evolution
+		logitech-presentation
+		logmein-client
+		logmein-hamachi
+		logos
+		lookin
+		loom
+		loopback
+		losslesscut
+		love
+		lrtimelapse
+		ltspice
+		lulu
+		lumen
+		luminance-hdr
+		lunar
+		lunastudio
+		luxmark
+		luyten
+		lyn
+		lynkeos
+		lynx
+		lynxlet
+		lyrics-master
+		lyricsx
+		lyx
+		m3unify
+		mac2imgur
+		macbreakz
+		macclean
+		maccpuid
+		maccy
+		macdependency
+		macdive
+		macdjview
+		macdown
+		macdropany
+		macfusion
+		macfusion-ng
+		macgamestore
+		macgdbp
+		macgesture
+		machacha
+		machg
+		machoexplorer
+		machoview
+		maciasl
+		macintosh-explorer
+		macjournal
+		macmediakeyforwarder
+		macpar-deluxe
+		macpass
+		macpilot
+		macs-fan-control
+		macspice
+		macsvg
+		macterm
+		mactex
+		mactex-no-gui
+		mactracker
+		macupdate
+		macupdater
+		macvim
+		macwinzipper
+		macx-dvd-ripper-mac-free-edition
+		macx-dvd-ripper-pro
+		macx-video-converter-pro
+		macx-youtube-downloader
+		maczip4win
+		maelstrom
+		magic-launch
+		magicavoxel
+		magiccap
+		magicplotpro
+		magicplotstudent
+		magicprefs
+		mailbutler
+		mailmaster
+		mailmate
+		mailplane
+		mailspring
+		maintenance
+		majsoul-plus
+		makehuman
+		makemkv
+		maltego
+		malus
+		malwarebytes
+		mame
+		mamp
+		manageengine-mibbrowser
+		manico
+		manictime
+		manta
+		manuscripts
+		manuskript
+		mapillary-uploader
+		mapture
+		marathon
+		marble
+		marginnote
+		mari0
+		maria
+		mark-text
+		markdown-service-tools
+		markdownmdimporter
+		marked
+		markright
+		mars
+		marsedit
+		marshallofsound-google-play-music-player
+		marta
+		marvel
+		marvin
+		masscode
+		massreplaceit
+		master-password
+		master-pdf-editor
+		masterway-note
+		mat
+		mate-translate
+		mater
+		material-colors
+		mathpix-snipping-tool
+		mathtype
+		matterhorn
+		mattermost
+		mattr-slate
+		mauve
+		mavensmate
+		max
+		mbed-studio
+		mblock
+		mcbopomofo
+		mcedit
+		mcgimp
+		mcreator
+		mdimagesizemdimporter
+		mdrp
+		media-center
+		media-converter
+		mediaelch
+		mediahuman-audio-converter
+		mediahuman-youtube-downloader
+		mediainfo
+		mediathekview
+		meetingbar
+		mega
+		megacmd
+		megahertz-knotes
+		megasync
+		meld
+		mellow
+		mellowplayer
+		melodics
+		melonbooksviewer
+		memo
+		memory
+		memory-map
+		mendeley
+		mendeley-reference-manager
+		menubar-colors
+		menubar-countdown
+		menubar-stats
+		menucalendarclock-ical
+		menumeters
+		menutube
+		merlin-project
+		mesasqlite
+		meshcommander
+		meshlab
+		meshmixer
+		messenger-native
+		messenger-unofficial
+		meta
+		metabase
+		metashape
+		metashapepro
+		metasploit
+		metaz
+		meteorologist
+		mgba
+		mi
+		mia-for-gmail
+		michaelvillar-timer
+		micro-snitch
+		microblog
+		microsoft-azure-storage-explorer
+		microsoft-edge
+		microsoft-excel
+		microsoft-lync
+		microsoft-office
+		microsoft-outlook
+		microsoft-powerpoint
+		microsoft-r-open
+		microsoft-teams
+		microsoft-word
+		middle
+		middleclick
+		midi-monitor
+		midikeys
+		midistroke
+		miditrail
+		mikogo
+		miktex-console
+		milanote
+		milkman
+		milkytracker
+		mimecast
+		min
+		mindforger
+		mindjet-mindmanager
+		mindmaster
+		minecraft
+		minecraft-server
+		minecraftpe
+		mini-program-studio
+		mini-vmac
+		miniconda
+		minishift
+		minitimer
+		minitube
+		minizincide
+		mipony
+		miro
+		mirrordisplays
+		mirrorop
+		mission-control-plus
+		missive
+		mist
+		mit-app-inventor
+		mixxx
+		mjml
+		mjolnir
+		mkchromecast
+		mks
+		mkvtoolnix
+		mkvtools
+		mmex
+		mnemosyne
+		mob
+		mobirise
+		mobster
+		mochi
+		mockoon
+		mockplus
+		mockuuups-studio
+		modelio
+		modmove
+		modulair
+		moefe-google-translate
+		mojibar
+		molotov
+		molsoftbrowser
+		monal
+		monero-wallet
+		moneydance
+		moneymoney
+		moneywiz
+		mongodb-compass
+		mongodb-compass-community
+		mongodb-compass-isolated-edition
+		mongodb-compass-readonly
+		mongodbpreferencepane
+		mongotron
+		monitorcontrol
+		monitorearth
+		monity-helper
+		mono-mdk
+		monodraw
+		monogame
+		monolingual
+		moom
+		moonlight
+		moose
+		morkro-papyrus
+		morpheus
+		mos
+		mosaic
+		moscow-ml
+		motrix
+		mountain
+		mountain-duck
+		mounty
+		mouse-locator
+		mousepose
+		movist
+		movist-pro
+		mp3gain-express
+		mp3tag
+		mp4tools
+		mpeg-streamclip
+		mplab-xc16
+		mplab-xc32
+		mplab-xc8
+		mplabx-ide
+		mplayer-osx-extended
+		mplayerx
+		mps
+		mpv
+		mqtt-explorer
+		mqttfx
+		mqttx
+		mtmr
+		mu-editor
+		mucommander
+		mudlet
+		mullvadvpn
+		multibit-hd
+		multifirefox
+		multimc
+		multipass
+		multipatch
+		multiscan-3b
+		multitouch
+		mumble
+		mumu
+		munki
+		murus
+		murus-menulet
+		muruslogsvisualizer
+		musaicfm
+		muse
+		museeks
+		musescore
+		music-manager
+		musicbrainz-picard
+		musictube
+		mutespotifyads
+		mutify
+		muzzle
+		mweb
+		my-budget
+		my-image-garden
+		mycloud
+		mycrypto
+		mylio
+		mymonero
+		myphone
+		mysides
+		mysql-connector-python
+		mysql-shell
+		mysql-utilities
+		mysqlworkbench
+		myworkspace
+		nagbar
+		nagstamon
+		nally
+		name-mangler
+		namebench
+		namechanger
+		nano
+		nanostudio
+		nasas-eyes
+		native-access
+		nativedisplaybrightness
+		natron
+		nautilus
+		navicat-data-modeler
+		navicat-data-modeler-essentials
+		navicat-for-mariadb
+		navicat-for-mysql
+		navicat-for-oracle
+		navicat-for-postgresql
+		navicat-for-sql-server
+		navicat-for-sqlite
+		navicat-premium
+		navicat-premium-essentials
+		nbtexplorer
+		ncar-ncl
+		ndm
+		near-lock
+		neo4j
+		neofinder
+		nestopia
+		netbeans
+		netbeans-cpp
+		netbeans-java-ee
+		netbeans-java-se
+		netbeans-php
+		netdownloadhelpercoapp
+		neteasemusic
+		nethackcocoa
+		netiquette
+		netlogo
+		netnewswire
+		netron
+		netspot
+		network-radar
+		netxms-console
+		next
+		nextcloud
+		nfov
+		ngrok
+		nheko
+		nifty
+		night-owl
+		nightfall
+		nightingale
+		nightowl
+		nimble-commander
+		nimbus
+		ninja-download-manager-ndm
+		nisus-thesaurus
+		nitroshare
+		nndd
+		no-ip-duc
+		nocturnal
+		nocturne
+		nodebox
+		nodeclipse
+		noisebuddy
+		noisy
+		noisytyper
+		nomachine
+		nomachine-enterprise-client
+		nomad
+		noraswitch
+		nordvpn
+		nordvpn-teams
+		nosleep
+		nosql-workbench-for-amazon-dynamodb
+		nosqlbooster-for-mongodb
+		nosqlclient
+		not-pacman
+		not-tetris
+		notable
+		notational-velocity
+		notebooks
+		notedup
+		noteplan
+		noti
+		notion
+		noto
+		noun-project
+		novabench
+		now
+		now-tv-player
+		noxappplayer
+		nozbe
+		nrlquaker-winbox
+		nslogger
+		nsregextester
+		nteract
+		ntfstool
+		nuclear
+		nucleo
+		nuclino
+		nulloy
+		nullpomino
+		numi
+		nutstore
+		nvalt
+		nvidia-geforce-now
+		nwjs
+		nzbget
+		nzbvortex
+		objectivesharpie
+		objektiv
+		obs
+		obs-virtualcam
+		obsidian
+		obyte
+		ocenaudio
+		oclint
+		octomouse
+		octoscreen
+		odio
+		odrive
+		ogdesign-eagle
+		olive
+		omegat
+		omnidazzle
+		omnidb
+		omnidisksweeper
+		omnifocus
+		omnigraffle
+		omnioutliner
+		omniplan
+		omnipresence
+		omniweb
+		omx-ebooks
+		ondesoft-audiobook-converter
+		one-switch
+		onecast
+		onedrive
+		onenote-importer-preview
+		onepile
+		oni
+		onionshare
+		onlyoffice
+		onyx
+		oolite
+		open-ecard
+		open-in-code
+		openarena
+		openaudible
+		openbazaar
+		openboard
+		openboardview
+		openconnect-gui
+		opencore-configurator
+		opencpn
+		opendnsupdater
+		openemu
+		openframeworks
+		openineditor-lite
+		openinterminal
+		openinterminal-lite
+		openkey
+		openlp
+		openmsx
+		openmtp
+		openmw
+		opennx
+		openoffice
+		openpht
+		openra
+		openrct2
+		openrefine
+		opensc
+		openscad
+		opensesame
+		openshot-video-editor
+		opensim
+		opensong
+		opentoonz
+		openttd
+		openvanilla
+		openvisualtraceroute
+		openvpn-connect
+		openwebstart
+		openxcom
+		openzfs
+		opera
+		opera-mail
+		opera-mobile-emulator
+		opera-neon
+		operadriver
+		optimage
+		optimal-layout
+		oracle-jdk
+		oracle-jdk-javadoc
+		orange
+		orca
+		origami-studio
+		origin
+		orka
+		oryoki
+		osbuddy
+		oscar
+		oscilloscope
+		osirix-quicklook
+		osmc
+		osquery
+		osxfuse
+		otter-browser
+		otx
+		outguess
+		outline
+		outline-manager
+		outset
+		outwit-hub
+		overdrive-media-console
+		overflow
+		overkill
+		oversight
+		owasp-zap
+		owncloud
+		oxygen-xml-editor
+		p4v
+		pablodraw
+		pacifist
+		packages
+		packet-peeper
+		packetproxy
+		packetsender
+		pages-data-merge
+		pagico
+		paintbrush
+		paintcode
+		paletro
+		panda
+		pandora
+		panic-unison
+		panoply
+		paparazzi
+		paper
+		papers
+		paperspace
+		papyrus
+		paragon-extfs
+		paragon-ntfs
+		paragon-vmdk-mounter
+		parallels
+		parallels-access
+		parallels-client
+		parallels-toolbox
+		parallels-virtualization-sdk
+		paraview
+		parse
+		parsec
+		parsehub
+		particle-dev
+		pashua
+		password-assistant
+		password-gorilla
+		pastebot
+		pastor
+		patchwork
+		path-finder
+		paw
+		pd
+		pd-extended
+		pd-l2ork
+		pdf-converter-master
+		pdf-expert
+		pdf-images
+		pdf-squeezer
+		pdf-toolbox
+		pdfelement
+		pdfelement-express
+		pdfextractor
+		pdfkey-pro
+		pdfpen
+		pdfpenpro
+		pdfsam-basic
+		pdfshaver
+		pdftotext
+		peakhour
+		penc
+		pencil
+		pencil2d
+		pennywise
+		perforce
+		permute
+		persepolis-download-manager
+		pester
+		pext
+		pflists
+		pg-commander
+		pgadmin4
+		phantomjs
+		phew
+		phiewer
+		phocus
+		phoenix
+		phoenix-slides
+		phonebrowse
+		phoneclean
+		phonegap
+		phonerescue
+		phonetrans
+		photo-supreme-single-user
+		photoninja
+		photosweeper-x
+		photosync
+		photozoom-pro
+		phpstorm
+		physicseditor
+		pibakery
+		picgo
+		piezo
+		pikopixel
+		pine
+		pineapple
+		pinegrow
+		pingid
+		pingmenu
+		pingplotter
+		pins
+		pinta
+		piskel
+		pitchperfect
+		pivy
+		pixel-check
+		pixel-picker
+		pixelpeeper
+		pixelsnap
+		pixelstick
+		plain-clip
+		plan
+		platelet
+		platypus
+		play
+		playback
+		playmemories-home
+		playnow
+		playonmac
+		plecs-standalone
+		plex
+		plex-media-player
+		plex-media-server
+		plexamp
+		pliim
+		plistedit-pro
+		plotdigitizer
+		plover
+		plug
+		pluralsight
+		pngyu
+		pock
+		pocket-casts
+		podcastmenu
+		podman
+		podolski
+		poedit
+		poi
+		pokemon-reborn
+		pokemon-showdown
+		pokerstars
+		pokerth
+		polar-bookshelf
+		polycom-content
+		polycom-realpresence
+		polymail
+		polyphone
+		pomello
+		pomodone
+		pomolectron
+		pomotodo
+		pomotroid
+		pongsaver
+		popchar
+		popclip
+		popmaker
+		popo
+		popsql
+		portfolioperformance
+		porting-kit
+		post-haste
+		postbird
+		postbox
+		posterazor
+		postgres
+		postgrespreferencepane
+		postico
+		postman
+		powder
+		powder-player
+		power-manager
+		powerpanel
+		powerphotos
+		powershell
+		powerword
+		ppduck
+		pppc-utility
+		pprows
+		praat
+		pref-setter
+		preference-manager
+		preferencecleaner
+		preform
+		prefs-editor
+		prepros
+		presentation
+		pretzel
+		prey
+		prezi-classic
+		prezi-next
+		prince
+		principle
+		printopia
+		printrun
+		prismatik
+		pritunl
+		private-eye
+		private-internet-access
+		privatetunnel
+		privatevpn
+		prizmo
+		pro-fit
+		processing
+		procexp
+		proclaim
+		product-hunt
+		profilecreator
+		profilemanager
+		profind
+		programmer-dvorak
+		progressive-downloader
+		project-slippi-dolphin
+		projectlibre
+		propresenter
+		prosys-opc-ua-browser
+		protege
+		protonmail-bridge
+		protonmail-unofficial
+		protonvpn
+		protopie
+		provisioning
+		provisionql
+		prowritingaid
+		proxifier
+		proximity
+		proxyman
+		prudent
+		prusaslicer
+		psequel
+		psi
+		psi-plus
+		psychopy
+		publii
+		publish-or-perish
+		pullover
+		pulse-sms
+		punto-switcher
+		puppetry
+		purei-play
+		purevpn
+		pusher
+		putio-adder
+		puush
+		puzzles
+		pwnagetool
+		pycharm
+		pycharm-ce
+		pycharm-ce-with-anaconda-plugin
+		pycharm-edu
+		pycharm-with-anaconda-plugin
+		pyfa
+		pym-player
+		pynsource
+		pyzo
+		qbittorrent
+		qblocker
+		qbserve
+		qcad
+		qcma
+		qctools
+		qdesktop
+		qdslrdashboard
+		qfinder-pro
+		qgis
+		qgroundcontrol
+		qingg
+		qiyimedia
+		ql-ansilove
+		qlab
+		qladdict
+		qlc-plus
+		qlcolorcode
+		qlcommonmark
+		qldds
+		qlfits
+		qlgradle
+		qlimagesize
+		qlmarkdown
+		qlmobi
+		qlnetcdf
+		qlplayground
+		qlprettypatch
+		qlrest
+		qlstephen
+		qlswift
+		qlvideo
+		qmoji
+		qnapi
+		qobuz
+		qownnotes
+		qq
+		qqbrowser
+		qqlive
+		qqmacmgr
+		qqmusic
+		qqplayer
+		qr-journal
+		qsync-client
+		qsyncthingtray
+		qt-creator
+		qt-design-studio
+		qt3dstudio
+		qtox
+		qtpass
+		qtspim
+		qtum
+		qtvlm
+		quail
+		quakespasm
+		quassel
+		quassel-client
+		quaternion
+		querious
+		questrade-iq-edge
+		quickbooks
+		quickbooks-online
+		quickboot
+		quicken
+		quickgeojson
+		quickhash
+		quickhue
+		quickjson
+		quickkeyextension
+		quicklook-csv
+		quicklook-json
+		quicklook-pat
+		quicklook-pfm
+		quicklookapk
+		quicklookase
+		quicknfo
+		quicksilver
+		quicksync
+		quickwords
+		quik
+		quip
+		quiterss
+		quitter
+		quodlibet
+		qutebrowser
+		qv2ray
+		qview
+		qxmledit
+		qyooo
+		r
+		r-name
+		rabbitmq
+		race-into-space
+		racket
+		racket-cs
+		radarr
+		radiant-player
+		radio-silence
+		raindropio
+		rambox
+		ramme
+		ransomwhere
+		rapidminer-studio
+		rapidweaver
+		rar
+		raspberry-pi-imager
+		raven
+		raven-reader
+		raw-photo-processor
+		rawtherapee
+		razorsql
+		rclone-browser
+		rcloneosx
+		rcse
+		react-native-debugger
+		react-proto
+		react-studio
+		reactotron
+		realforce
+		realm-studio
+		reaper
+		receiptquicklook
+		receipts
+		recents
+		recordit
+		recovery-disk-assistant
+		rectangle
+		red
+		red-eye
+		redcine-x-pro
+		redeclipse
+		redis
+		redisinsight
+		refined-github-safari
+		reflector
+		regexhibit
+		reggy
+		reikey
+		rekordbox
+		rember
+		remember-the-milk
+		remote-buddy
+		remote-desktop-manager
+		remote-desktop-manager-free
+		remoteviewer
+		remotix-agent
+		renamer
+		renpy
+		repetier-host
+		rescuetime
+		residualvm
+		resilio-sync
+		resolume-arena
+		resolutionator
+		responsively
+		resxtreme
+		retinizer
+		retro-virtual-machine
+		retroarch
+		retroarch-metal
+		retrobatch
+		retroshare
+		reunion
+		reveal
+		revisions
+		rhinoceros
+		ricochet
+		rider
+		ridibooks
+		rightfont
+		rightzoom
+		ring
+		ringcentral
+		ringcentral-classic
+		ringcentral-meetings
+		ringcentral-phone
+		ringtones
+		ripcord
+		ripit
+		river-sparkle
+		roaringapps
+		robo-3t
+		robofont
+		roboform
+		rocket
+		rocket-chat
+		rocket-typist
+		rocks-n-diamonds
+		rodeo
+		roku-remote-tool
+		rolisteam
+		roon
+		rosaimagewriter
+		rotato
+		routebuddy
+		routeconverter
+		rowanj-gitx
+		rowmote-helper
+		royal-tsx
+		rpn-scientific
+		rpvoip
+		rq
+		rrcc
+		rss
+		rssowl
+		rstudio
+		rsyncosx
+		rubitrack-pro
+		rubymine
+		rubymotion
+		runescape
+		runjs
+		runway
+		ryver
+		sabaki
+		sabnzbd
+		safeincloud-password-manager
+		sage
+		sameboy
+		santa
+		saoimageds9
+		sapmachine-jdk
+		satellite-eyes
+		sauce-connect
+		sauerbraten
+		save-hollywood
+		scala-ide
+		scaleft
+		scansion
+		scap-workbench
+		scapple
+		scenebuilder
+		schism-tracker
+		scidavis
+		scidvsmac
+		scihubeva
+		scilab
+		scope
+		scout
+		scratch
+		screaming-frog-seo-spider
+		screen
+		screencast
+		screenflick
+		screenflow
+		screenfocus
+		screens
+		screens-connect
+		scribus
+		script-debugger
+		scriptql
+		scrivener
+		scroll-reverser
+		scrooo
+		scrutiny
+		scummvm
+		sdformatter
+		sdrdx
+		seadrive
+		seafile-client
+		seaglass
+		seamonkey
+		seashore
+		second-life-viewer
+		secretive
+		secure-pipes
+		securesafe
+		securid
+		security-growler
+		securityspy
+		segger-embedded-studio-for-arm
+		sejda-pdf
+		sekey
+		selfcontrol
+		semulov
+		sencha
+		send-anywhere
+		send-to-kindle
+		sensei
+		sensiblesidebuttons
+		sentinel
+		senuti
+		sequel-ace
+		sequel-pro
+		sequential
+		serial
+		serial-tools
+		serviio
+		servo
+		servpane
+		session
+		session-manager-plugin
+		sessionrestore
+		setapp
+		sf-symbols
+		sfdx
+		shades
+		shadow
+		shadowsocksx
+		shadowsocksx-ng
+		shadowsocksx-ng-r
+		shapes
+		sharemouse
+		sharepod
+		shellhere
+		sherlock
+		shiba
+		shift
+		shiftit
+		shifty
+		shimeike-formulatepro
+		shimo
+		shiori
+		shoes
+		shortcat
+		shortcutdetective
+		shortcuts
+		shotcut
+		showhiddenfiles
+		showyedge
+		shrinkit
+		shupapan
+		shutter-encoder
+		shuttle
+		sia-ui
+		sickbeard-anime
+		sidekick
+		sidenotes
+		sidequest
+		sidestep
+		sigdigger
+		sigil
+		sigilium-email-signatures
+		signal
+		sigviewer
+		silentknight
+		silo
+		silverlight
+		sim-daltonism
+		sim-genie
+		simpholders
+		simple-comic
+		simplecap
+		simplediagrams
+		simplefloatingclock
+		simplenote
+		simplesynth
+		simplistic
+		simply-fortran
+		simsim
+		singularity
+		sip
+		sipgate-softphone
+		sirimote
+		sitebulb
+		sixtyforce
+		sizeup
+		sizzy
+		skala-preview
+		sketch
+		sketch-toolbox
+		sketchbook
+		sketchpacks
+		sketchup
+		sketchup-pro
+		skim
+		skitch
+		skreenics
+		skybox
+		skyfonts
+		skype
+		skype-for-business
+		skypewebplugin
+		slack
+		slate
+		sleepyhead
+		sleipnir
+		slic3r
+		slicer
+		slik
+		slimbatterymonitor
+		slimhud
+		slingplayer
+		slite
+		sloth
+		smallpdf
+		smart-converter-pro
+		smartgit
+		smartsvn
+		smartsynchronize
+		smcfancontrol
+		smlnj
+		smoothscroll
+		smooze
+		snagit
+		snapndrag
+		snappy
+		sneek
+		snes9x
+		snip
+		snipaste
+		snowflake-snowsql
+		snwe
+		soapui
+		socket-io-tester
+		sococo
+		soda-player
+		soduto
+		sofa-server
+		softmaker-freeoffice
+		softorino-youtube-converter
+		softraid
+		softu2f
+		softube-central
+		sogouinput
+		solvespace
+		sonarr
+		sonarr-menu
+		sonic-pi
+		sonic-visualiser
+		sonoair
+		sopcast
+		soqlxplorer
+		soulseek
+		soulver
+		sound-blaster-command
+		sound-control
+		sound-siphon
+		soundboosterlite
+		soundcleod
+		soundcloud-downloader
+		soundflower
+		soundflowerbed
+		soundsource
+		sourcenote
+		sourcetrail
+		sourcetree
+		spacelauncher
+		spaceradar
+		spamsieve
+		spark
+		sparkle
+		sparkleshare
+		spatial
+		spatterlight
+		spechtlite
+		spectacle
+		spectacle-editor
+		spectrum
+		spectx
+		speedcrunch
+		speedify
+		spek
+		spideroak-share
+		spideroakone
+		spillo
+		spires
+		splashtop-business
+		splashtop-personal
+		splashtop-streamer
+		splayer
+		splice
+		splitshow
+		spotifree
+		spotify
+		spotify-now-playing
+		spotmenu
+		spotspot
+		springtoolsuite
+		sql-power-architect-jdbc
+		sql-tabs
+		sqlectron
+		sqleditor
+		sqlexplorer
+		sqlitemanager
+		sqlitestudio
+		sqlpro-for-mssql
+		sqlpro-for-mysql
+		sqlpro-for-postgres
+		sqlpro-for-sqlite
+		sqlpro-studio
+		sqlworkbenchj
+		squadanimatorgaa
+		squadanimatorrugby
+		squadanimatorsoccer
+		squeak
+		squidman
+		squirrel
+		squirrelsql
+		srware-iron
+		ssh-config-editor
+		ssh-tunnel-manager
+		ssokit
+		stack
+		stack-exchange-notifier
+		stack-stack
+		stand
+		standard-notes
+		starcraft
+		starleaf
+		startninja
+		startupizer
+		staruml
+		station
+		stationtv-link
+		stats
+		statusfy
+		stay
+		steam
+		steamcmd
+		steermouse
+		stella
+		stellarium
+		stepmania
+		steveschow-gfxcardstatus
+		stoplight-studio
+		storyboarder
+		strange-flesh
+		strawberry
+		strawberry-wallpaper
+		streamlabs-obs
+		streamlink-twitch-gui
+		stremio
+		stretchly
+		stringsfile
+		strongvpn
+		stubbymanager
+		studio-3t
+		studiolinkstandalone
+		subethaedit
+		subgit
+		subler
+		sublercli
+		sublime-merge
+		sublime-text
+		subnetcalc
+		subsurface
+		subsync
+		subtitle-master
+		subtitles
+		subtools
+		suitcase-fusion
+		sunloginclient
+		sunlogincontrol
+		sunsama
+		sunvox
+		superbeam
+		supercollider
+		superduper
+		superhuman
+		superproductivity
+		supersync
+		supertuxkart
+		surfeasy-vpn
+		surge
+		surge-synthesizer
+		suspicious-package
+		svgcleaner
+		svnx
+		sweet-home3d
+		swift
+		swift-explorer
+		swift-publisher
+		swiftdefaultappsprefpane
+		swiftformat-for-xcode
+		swiftpm-catalog
+		swiftstack-client
+		swifty
+		swiftybeaver
+		swimat
+		swinsian
+		swish
+		switch
+		switchhosts
+		switchkey
+		switchresx
+		symboliclinker
+		synalyze-it-pro
+		sync
+		sync-my-l2p
+		syncmate
+		syncovery
+		syncplay
+		syncterm
+		syncthing
+		synergy
+		synfigstudio
+		synology-chat
+		synology-note-station-client
+		syntax-highlight
+		synthesia
+		sysdig-inspect
+		sysex-librarian
+		table-tool
+		tableau
+		tableau-prep
+		tableau-public
+		tableau-reader
+		tableflip
+		tableplus
+		tabula
+		tad
+		tag
+		tagalicious
+		tagger
+		tagspaces
+		tales-of-majeyal
+		talon
+		tandem
+		tap-forms
+		taskade
+		taskexplorer
+		taskpaper
+		taskwarrior-pomodoro
+		tastyworks
+		tau
+		tbe
+		tbs-studio
+		tcl
+		td-agent
+		teacode
+		teambition
+		teamdrive
+		teamspeak-client
+		teamviewer
+		teamviewer-host
+		teamviewer-quickjoin
+		teamviewer-quicksupport
+		teamwire
+		teensy
+		teeworlds
+		telavox-flow
+		telegram
+		telegram-desktop
+		tempo
+		tencent-lemon
+		tencent-meeting
+		tenor
+		termhere
+		terminology
+		terminus
+		termius
+		tex-live-utility
+		texmacs
+		texmaker
+		texpad
+		texshop
+		texstudio
+		textadept
+		textbar
+		textexpander
+		textmate
+		texts
+		textual
+		texturepacker
+		texworks
+		tg-pro
+		th-makerx
+		the-archive-browser
+		the-battle-for-wesnoth
+		the-cheat
+		the-clock
+		the-tagger
+		the-unarchiver
+		thebrain
+		thedesk
+		themeengine
+		there
+		therm
+		thetube
+		thingsmacsandboxhelper
+		thinkorswim
+		thonny
+		thonny-xxl
+		thor
+		thorium
+		thought-train
+		threads
+		thumbsup
+		thunder
+		thunderbird
+		thyme
+		ti-connect-ce
+		tibco-jaspersoft-studio
+		tickeys
+		ticktick
+		tidal
+		tiddly
+		tidepool-uploader
+		tifig
+		tiger-trade
+		tigervnc-viewer
+		tigervpn
+		tikz-editor
+		tikzit
+		tiled
+		tiles
+		timche-gmail-desktop
+		time-lapse-assembler
+		time-out
+		time-sink
+		time-tracker
+		timecamp
+		timelane
+		timely
+		timemachineeditor
+		timemator
+		timer
+		timestamp
+		timeular
+		timing
+		timings
+		tinderbox
+		tinkerwell
+		tiny-player
+		tinymediamanager
+		tinypng4mac
+		tip
+		tipp10
+		tla-plus-toolbox
+		tlv
+		tn3270-x
+		tnefs-enough
+		today-scripts
+		todometer
+		todos
+		todotxt
+		todour
+		tofu
+		toggl
+		toinane-colorpicker
+		tomighty
+		tongbu
+		tonido
+		toontown-rewritten
+		topcat
+		toptracker
+		tor-browser
+		torguard
+		torrent-file-editor
+		tortoisehg
+		touch-bar-pong
+		touch-bar-simulator
+		touchbarserver
+		touchdesigner
+		touchosc-bridge
+		touchosc-editor
+		touchswitcher
+		tower
+		townwifi
+		tracks-live
+		trader-workstation
+		trailer
+		trainerroad
+		tranquility
+		transmission
+		transmission-remote-gui
+		transmit
+		transmit-disk
+		transnomino
+		transocks
+		transtype
+		trash-it
+		trayplay
+		treesheets
+		tresorit
+		trezor-bridge
+		tribler
+		trilium-notes
+		trim-enabler
+		trinity
+		triplecheese
+		tripmode
+		trojan-qt5
+		trolcommander
+		tropy
+		trufont
+		ttscoff-mmd-quicklook
+		tuck
+		tuneinstructor
+		tuneskit-m4v-converter
+		tunnelbear
+		tunnelblick
+		tuntap
+		tuple
+		turbo-boost-switcher
+		turbovnc-viewer
+		turtl
+		tusk
+		tutanota
+		tuxera-ntfs
+		tuxguitar
+		tv-browser
+		tvrenamer
+		tweet-tray
+		tweetbot
+		tweeten
+		twine
+		twist
+		twitch
+		twonkyserver
+		tyke
+		typeface
+		typeit4me
+		typinator
+		typora
+		tysimulator
+		ubar
+		uberconference
+		ubersicht
+		uc-one
+		udeler
+		udig
+		ueli
+		ui-browser
+		ukelele
+		ukrainian-unicode-layout
+		ultimaker-cura
+		ultimate
+		ultimate-control
+		ultrastardeluxe
+		unclutter
+		uncolored
+		uncrustifyx
+		understand
+		unetbootin
+		unicodechecker
+		unified-remote
+		uninstallpkg
+		unison
+		unite
+		unity
+		unity-android-support-for-editor
+		unity-download-assistant
+		unity-hub
+		unity-ios-support-for-editor
+		unity-lumin-support-for-editor
+		unity-standard-assets
+		unity-web-player
+		unity-webgl-support-for-editor
+		unity-windows-support-for-editor
+		universal-media-server
+		unlox
+		unpkg
+		unshaky
+		upic
+		upm
+		upterm
+		upwork
+		usage
+		usb-overdrive
+		use-engine
+		utc-menu-clock
+		utools
+		utox
+		uu-booster
+		uxprotect
+		v2rayu
+		v2rayx
+		vagrant
+		vagrant-manager
+		vagrant-vmware-utility
+		valentina-studio
+		valley
+		vallum
+		vanilla
+		vapor
+		vassal
+		vcv-rack
+		vectr
+		vellum
+		veonim
+		veracrypt
+		versions
+		vesta
+		veusz
+		via
+		viber
+		vidcutter
+		videobox
+		videostream
+		vidrio
+		vidyo
+		vienna
+		vimediamanager
+		vimr
+		vin047-abgx360
+		vip-access
+		virtual-ii
+		virtualbox
+		virtualbox-extension-pack
+		virtualc64
+		virtualgl
+		virtualhere
+		virtualhereserver
+		virtualhostx
+		virustotaluploader
+		viscosity
+		visicut
+		visit
+		visual
+		visual-paradigm
+		visual-paradigm-ce
+		visual-studio
+		visual-studio-code
+		visualboyadvance-m
+		visualvm
+		vitalsource-bookshelf
+		vitamin-r
+		vivaldi
+		vivi
+		vk-messenger
+		vlc
+		vlc-webplugin
+		vlcstreamer
+		vmpk
+		vmware-fusion
+		vmware-horizon-client
+		vnc-server
+		vnc-viewer
+		vnote
+		voicemac
+		voikkospellservice
+		volt
+		voodoopad
+		voov-meeting
+		vorta
+		vox
+		vox-preferences-pane
+		voxql
+		vpn-enabler
+		vrep
+		vrew
+		vscodium
+		vsee
+		vu
+		vuescan
+		vuze
+		vv
+		vyprvpn
+		vysor
+		wacom-inkspace
+		wail
+		wakeonlan
+		wallpaper-wizard
+		waltr
+		wanna
+		warsow
+		warzone-2100
+		wasabi-wallet
+		watchguard-mobile-vpn-with-ssl
+		waterfox
+		waterfox-current
+		wavebox
+		waves-central
+		wavesurfer
+		wavtap
+		weakauras-companion
+		web-sharing
+		webarchiveextractor
+		webcamoid
+		webcatalog
+		webex-meetings
+		webex-nbr-player
+		webex-teams
+		webex-wrf-player
+		webpack-dashboard
+		webplotdigitizer
+		webponize
+		webpquicklook
+		webrecorder-player
+		website-watchman
+		webstorm
+		webtorrent
+		webviewscreensaver
+		wechat
+		wechatwebdevtools
+		wechatwork
+		weiyun
+		weka
+		welly
+		wercker
+		wercker-cli
+		wewechat
+		wey
+		whale
+		whalebird
+		whatroute
+		whatsapp
+		whatsize
+		whatsyoursign
+		whichspace
+		whoozle-android-file-transfer
+		wickrme
+		widelands
+		wifi-explorer
+		wifispoof
+		winclone
+		windocd
+		window-switch
+		windows95
+		winds
+		windscribe
+		wine-stable
+		wingpersonal
+		wings3d
+		wintertime
+		winzip
+		wire
+		wireframe-sketcher
+		wireshark
+		wireshark-chmodbpf
+		witch
+		wiznote
+		wjoy
+		wkhtmltopdf
+		wonderfultools-screensaver
+		wondershare-filmora
+		wondershare-uniconverter
+		wordpresscom
+		wordservice
+		workbench
+		workflowy
+		workplace-chat
+		workspaces
+		wormhole
+		wowmatrix
+		wpsoffice
+		wraparound
+		wrike
+		writefull
+		writemapper
+		writer
+		wwdc
+		wwdcsrt
+		wxcrafter
+		x-mirage
+		x-moto
+		x-swiftformat
+		x2goclient
+		xact
+		xamarin
+		xamarin-android
+		xamarin-ios
+		xamarin-mac
+		xamarin-profiler
+		xamarin-studio
+		xamarin-workbooks
+		xampp
+		xampp-vm
+		xaos
+		xbench
+		xca
+		xcodeclangformat
+		xctu
+		xdm
+		xee
+		xiami
+		ximalaya
+		xit
+		xld
+		xlink-kai
+		xlplayer
+		xmind
+		xmind-zen
+		xmplify
+		xnconvert
+		xnviewmp
+		xoctave
+		xonotic
+		xpra
+		xquartz
+		xrg
+		xscope
+		xscreensaver
+		xtorrent
+		yacreader
+		yakyak
+		yam-display
+		yammer
+		yandex
+		yandex-cloud-cli
+		yandex-disk
+		yandexradio
+		yate
+		yed
+		yemuzip
+		yep
+		yinxiangbiji
+		yo
+		yoda
+		yojimbo
+		youdaodict
+		youdaonote
+		youku
+		youll-never-take-me-alive
+		yourkit-java-profiler
+		youtrack-workflow
+		youtube-to-mp3
+		yt-music
+		ytmdesktop-youtube-music
+		yu-writer
+		yy
+		yyets
+		zalo
+		zandronum
+		zappy
+		zazu
+		zdoom
+		zeebe-modeler
+		zenbeats
+		zenmap
+		zenmate-vpn
+		zeplin
+		zerobranestudio
+		zeronet
+		zerotier-one
+		zesarux
+		zettelkasten
+		zettlr
+		zipcleaner
+		zoc
+		zoho-docs
+		zoho-mail
+		zoho-workdrive
+		zoolz
+		zoom
+		zoom-for-it-admins
+		zoomin
+		zoomus
+		zoomus-outlook-plugin
+		zotero
+		zterm
+		zulip
+		zulu
+		zwift
+		zxpinstaller
+		
+		==> Upgrading 4 outdated packages:
+		json-c 0.14 -> 0.15
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+	brew update
+		Updated Homebrew from 8b1158478 to 97cf1750f.
+		No changes to formulae.
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Jul 27 10:44:27 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 97cf1750f to 850be6697.
+		Updated 1 tap (homebrew/core).
+		==> New Formulae
+		ngs
+		
+		==> Upgrading 4 outdated packages:
+		json-c 0.14 -> 0.15
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+	brew update
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Jul 27 10:44:34 AM 2020
+	brew upgrade
+		==> Upgrading 4 outdated packages:
+		json-c 0.14 -> 0.15
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Tue Jul 28 03:01:48 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 850be6697 to 698ac63a0.
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> New Formulae
+		jimtcl
+		jinx
+		oci-cli
+		reg
+		==> Updated Formulae
+		Updated 193 formulae.
+		==> Updated Casks
+		ableton-live
+		ableton-live-lite
+		ableton-live-standard
+		ableton-live-suite
+		anydo
+		boom-3d
+		codespace
+		deeper
+		diffmerge
+		docker
+		element
+		fontexplorer-x-pro
+		garagebuy
+		google-chrome
+		juicebar
+		keep-it
+		loginputmac
+		maintenance
+		mumu
+		nordvpn-teams
+		omnifocus
+		onyx
+		pablodraw
+		power-manager
+		proclaim
+		runway
+		saoimageds9
+		shift
+		sipgate-softphone
+		surge
+		tap-forms
+		upic
+		visual-paradigm
+		visual-paradigm-ce
+		weakauras-companion
+		webcatalog
+		webstorm
+		wechatwork
+		wondershare-filmora
+		
+		==> Upgrading 5 outdated packages:
+		json-c 0.14 -> 0.15
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		git 2.27.0 -> 2.28.0
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/git--2.27.0.catalina.bottle.1.tar.gz... (19.3MB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Tue Jul 28 09:00:07 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 698ac63a0 to 06f078fad.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		chart-testing
+		jsonnet-bundler
+		==> Updated Formulae
+		Updated 2 formulae.
+		==> Updated Casks
+		ableton-live-intro
+		anki
+		cheatsheet
+		fork
+		kitty
+		loom
+		macupdater
+		opera
+		studio-3t
+		surge-synthesizer
+		syntax-highlight
+		
+		==> Upgrading 5 outdated packages:
+		json-c 0.14 -> 0.15
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		git 2.27.0 -> 2.28.0
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Tue Jul 28 11:31:27 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 35 formulae.
+		==> Updated Casks
+		alt-tab
+		intellij-idea
+		lando
+		metasploit
+		
+		==> Upgrading 5 outdated packages:
+		json-c 0.14 -> 0.15
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		git 2.27.0 -> 2.28.0
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Wed Jul 29 03:01:58 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 06f078fad to 7713e92fb.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		sdns
+		==> Updated Formulae
+		Updated 67 formulae.
+		==> Updated Casks
+		airy
+		anydo
+		atext
+		balenaetcher
+		beekeeper-studio
+		brave-browser
+		browserosaurus
+		cashnotify
+		cleanmymac
+		connectmenow
+		cookie
+		coqide
+		djay-pro
+		firefox
+		framer
+		gemini
+		gloomhaven-helper
+		hbuilderx
+		intellij-idea-ce
+		itubedownloader
+		jellyfin
+		kodi
+		lehreroffice
+		loom
+		marsedit
+		mindjet-mindmanager
+		multitouch
+		nteract
+		onedrive
+		pixelsnap
+		prepros
+		pyfa
+		qownnotes
+		screen
+		sizzy
+		softorino-youtube-converter
+		soulver
+		splashtop-personal
+		teamviewer
+		terminus
+		timche-gmail-desktop
+		tinkerwell
+		tor-browser
+		visual-studio-code
+		vscodium
+		
+		==> Upgrading 5 outdated packages:
+		json-c 0.14 -> 0.15
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		git 2.27.0 -> 2.28.0
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://www.kernel.org/pub/linux/utils/util-linux/v2.36/util-linux-2.36.tar.xz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/374224e72ec2af174cce2f220de2989a373b37f22cf03158d0990f76f0193924--util-linux-2.36.tar.xz
+
+	pip3 install -U pip
+		Collecting pip
+		  Downloading pip-20.2-py2.py3-none-any.whl (1.5 MB)
+		Installing collected packages: pip
+		  Attempting uninstall: pip
+		    Found existing installation: pip 20.1.1
+		    Uninstalling pip-20.1.1:
+		      Successfully uninstalled pip-20.1.1
+		Successfully installed pip-20.2
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Wed Jul 29 09:00:07 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 7713e92fb to 2b33f995f.
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> Updated Formulae
+		Updated 29 formulae.
+		==> Updated Casks
+		datagrip
+		font-3270
+		font-3270-nerd-font
+		font-abeezee
+		font-abel
+		font-abhaya-libre
+		font-aboriginal-sans
+		font-aboriginal-serif
+		font-abril-fatface
+		font-abyssinica-sil
+		font-academicons
+		font-aclonica
+		font-acme
+		font-actor
+		font-adamina
+		font-adinatha-tamil-brahmi
+		font-adobe-blank
+		font-advent-pro
+		font-african-sans
+		font-african-serif
+		font-agave-nerd-font
+		font-aguafina-script
+		font-ahuramzda
+		font-aileron
+		font-akronim
+		font-aksara-bali-galang
+		font-aladin
+		font-alata
+		font-alatsi
+		font-aldrich
+		font-alef
+		font-alegreya
+		font-alegreya-sans
+		font-alegreya-sans-sc
+		font-alegreya-sc
+		font-aleo
+		font-alex-brush
+		font-alfa-slab-one
+		font-alice
+		font-alike
+		font-alike-angular
+		font-allan
+		font-allerta
+		font-allerta-stencil
+		font-allura
+		font-almarai
+		font-almendra
+		font-almendra-display
+		font-almendra-sc
+		font-amarante
+		font-amaranth
+		font-amatic-sc
+		font-amatica-sc
+		font-amethysta
+		font-amiko
+		font-amiri
+		font-amita
+		font-amstelvar-alpha
+		font-anaheim
+		font-andada
+		font-andada-sc
+		font-andagii
+		font-andale-mono
+		font-andika
+		font-andron-scriptor-web
+		font-angkor
+		font-anka-coder
+		font-annie-use-your-telescope
+		font-anonymice-nerd-font
+		font-anonymice-powerline
+		font-anonymous-pro
+		font-antic
+		font-antic-didone
+		font-antic-slab
+		font-antinoou
+		font-anton
+		font-antonio
+		font-arapey
+		font-arbutus
+		font-arbutus-slab
+		font-architects-daughter
+		font-architype-renner
+		font-archivo
+		font-archivo-black
+		font-archivo-narrow
+		font-archivo-vf-beta
+		font-aref-ruqaa
+		font-arial
+		font-arial-black
+		font-arima-madurai
+		font-arimo
+		font-arimo-nerd-font
+		font-arizonia
+		font-armata
+		font-arsenal
+		font-artifika
+		font-arvo
+		font-arya
+		font-asap
+		font-asap-condensed
+		font-asap-vf-beta
+		font-asar
+		font-asset
+		font-assistant
+		font-astloch
+		font-asul
+		font-athiti
+		font-atma
+		font-atomic-age
+		font-aubrey
+		font-audiowide
+		font-aurulentsansmono-nerd-font
+		font-autour-one
+		font-average
+		font-average-mono
+		font-average-sans
+		font-averia-gruesa-libre
+		font-averia-libre
+		font-averia-sans-libre
+		font-averia-serif-libre
+		font-awesome-terminal-fonts
+		font-b612
+		font-b612-mono
+		font-bad-script
+		font-bahiana
+		font-bahianita
+		font-bahnschrift
+		font-bai-jamjuree
+		font-baloo
+		font-baloo-2
+		font-baloo-bhai
+		font-baloo-bhai-2
+		font-baloo-bhaijaan
+		font-baloo-bhaina
+		font-baloo-bhaina-2
+		font-baloo-chettan
+		font-baloo-chettan-2
+		font-baloo-da
+		font-baloo-da-2
+		font-baloo-paaji
+		font-baloo-paaji-2
+		font-baloo-tamma
+		font-baloo-tamma-2
+		font-baloo-tammudu
+		font-baloo-tammudu-2
+		font-baloo-thambi
+		font-baloo-thambi-2
+		font-balsamiq-sans
+		font-balthazar
+		font-bangers
+		font-barlow
+		font-barlow-condensed
+		font-barlow-semi-condensed
+		font-barriecito
+		font-barrio
+		font-basic
+		font-baskervville
+		font-battambang
+		font-baumans
+		font-bayon
+		font-be-vietnam
+		font-bebas-neue
+		font-belgrano
+		font-bellefair
+		font-belleza
+		font-bellota
+		font-bellota-text
+		font-benchnine
+		font-bentham
+		font-berkshire-swash
+		font-beth-ellen
+		font-bevan
+		font-bhavuka
+		font-big-shoulders-display
+		font-big-shoulders-text
+		font-bigblue-terminal-nerd-font
+		font-bigelow-rules
+		font-bigshot-one
+		font-bilbo
+		font-bilbo-swash-caps
+		font-bio-rhyme
+		font-bio-rhyme-expanded
+		font-biryani
+		font-bitstream-vera
+		font-bitstreamverasansmono-nerd-font
+		font-bitter
+		font-black-and-white-picture
+		font-black-han-sans
+		font-black-ops-one
+		font-blackout
+		font-blexmono-nerd-font
+		font-blinker
+		font-blokk-neue
+		font-bm
+		font-bokor
+		font-bonbon
+		font-boogaloo
+		font-bowlby-one
+		font-bowlby-one-sc
+		font-brawler
+		font-bree-serif
+		font-brill
+		font-bruno-ace
+		font-bruno-ace-sc
+		font-bubblegum-sans
+		font-bubbler-one
+		font-buda
+		font-buenard
+		font-bukyvede-bold
+		font-bukyvede-italic
+		font-bukyvede-regular
+		font-bungee
+		font-bungee-hairline
+		font-bungee-inline
+		font-bungee-outline
+		font-bungee-shade
+		font-butcherman
+		font-butcherman-caps
+		font-butterfly-kids
+		font-cabin
+		font-cabin-condensed
+		font-cabin-sketch
+		font-cabin-vf-beta
+		font-caesar-dressing
+		font-cagliostro
+		font-cairo
+		font-caladea
+		font-calistoga
+		font-calligraffitti
+		font-cambay
+		font-cambo
+		font-camingocode
+		font-candal
+		font-cantarell
+		font-cantata-one
+		font-cantora-one
+		font-capriola
+		font-cardo
+		font-carme
+		font-carrois-gothic
+		font-carrois-gothic-sc
+		font-carter-one
+		font-cascadia
+		font-cascadia-mono
+		font-cascadia-mono-pl
+		font-cascadia-pl
+		font-caskaydiacove-nerd-font
+		font-catamaran
+		font-caudex
+		font-caveat
+		font-caveat-brush
+		font-cedarville-cursive
+		font-ceviche-one
+		font-chakra-petch
+		font-changa
+		font-changa-one
+		font-chango
+		font-chapbook
+		font-charis-sil
+		font-charm
+		font-charmonman
+		font-charter
+		font-chathura
+		font-chau-philomene-one
+		font-chela-one
+		font-chelsea-market
+		font-chenla
+		font-cherry-bomb
+		font-cherry-cream-soda
+		font-cherry-swash
+		font-chewy
+		font-chicle
+		font-chilanka
+		font-chivo
+		font-chonburi
+		font-church-slavonic
+		font-cica
+		font-cinzel
+		font-cinzel-decorative
+		font-clear-sans
+		font-clicker-script
+		font-cochineal
+		font-coda
+		font-coda-caption
+		font-code2002
+		font-codenewroman-nerd-font
+		font-codystar
+		font-coiny
+		font-combo
+		font-comfortaa
+		font-comic-neue
+		font-comic-sans-ms
+		font-coming-soon
+		font-computer-modern
+		font-conakry
+		font-concert-one
+		font-condiment
+		font-consolas-for-powerline
+		font-constructium
+		font-content
+		font-contrail-one
+		font-convergence
+		font-cookie
+		font-cooper-hewitt
+		font-copse
+		font-corben
+		font-cormorant
+		font-cormorant-garamond
+		font-cormorant-infant
+		font-cormorant-sc
+		font-cormorant-unicase
+		font-cormorant-upright
+		font-courgette
+		font-courier-new
+		font-courier-prime
+		font-courier-prime-code
+		font-courier-prime-medium-and-semi-bold
+		font-courier-prime-sans
+		font-cousine
+		font-cousine-nerd-font
+		font-coustard
+		font-covered-by-your-grace
+		font-cozette
+		font-crafty-girls
+		font-creepster
+		font-creepster-caps
+		font-crete-round
+		font-crimson-pro
+		font-crimson-text
+		font-croissant-one
+		font-crushed
+		font-cuprum
+		font-cute-font
+		font-cutive
+		font-cutive-mono
+		font-d2coding
+		font-daddytimemono-nerd-font
+		font-damion
+		font-dancing-script
+		font-dangrek
+		font-darker-grotesque
+		font-dashicons
+		font-david-clm
+		font-dawning-of-a-new-day
+		font-days-one
+		font-decovar-alpha
+		font-dejavu
+		font-dejavu-sans-mono-for-powerline
+		font-dejavu-sans-mono-nerd-font
+		font-dekko
+		font-delius
+		font-delius-swash-caps
+		font-delius-unicase
+		font-della-respira
+		font-denk-one
+		font-devicons
+		font-devonshire
+		font-dhurjati
+		font-dhyana
+		font-didact-gothic
+		font-digital-numbers
+		font-digohweli-old-do
+		font-diplomata
+		font-diplomata-sc
+		font-dm-mono
+		font-dm-sans
+		font-dm-serif-display
+		font-dm-serif-text
+		font-do-hyeon
+		font-dokdo
+		font-domine
+		font-donegal-one
+		font-doppio-one
+		font-dorsa
+		font-dosis
+		font-doulos-sil
+		font-dr-sugiyama
+		font-droid-sans-mono-for-powerline
+		font-droidsansmono-nerd-font
+		font-duru-sans
+		font-dynalight
+		font-eagle-lake
+		font-east-sea-dokdo
+		font-eater
+		font-eater-caps
+		font-eb-garamond
+		font-economica
+		font-eczar
+		font-edlo
+		font-ek-mukta
+		font-el-messiri
+		font-electrolize
+		font-elsie
+		font-elsie-swash-caps
+		font-elstobd
+		font-emblema-one
+		font-emilys-candy
+		font-encode-sans
+		font-encode-sans-condensed
+		font-encode-sans-expanded
+		font-encode-sans-semi-condensed
+		font-encode-sans-semi-expanded
+		font-engagement
+		font-englebert
+		font-enriqueta
+		font-envy-code-r
+		font-erica-one
+		font-esteban
+		font-et-book
+		font-euphoria-script
+		font-everson-mono
+		font-ewert
+		font-exo
+		font-exo-2
+		font-expletus-sans
+		font-ezra-sil
+		font-fahkwang
+		font-fairfax
+		font-fandol
+		font-fantasque-sans-mono
+		font-fantasque-sans-mono-noloopk
+		font-fantasquesansmono-nerd-font
+		font-fanwood-text
+		font-farro
+		font-farsan
+		font-fascinate
+		font-fascinate-inline
+		font-faster-one
+		font-fasthand
+		font-fauna-one
+		font-faune
+		font-faustina
+		font-faustina-vf-beta
+		font-federant
+		font-federo
+		font-felipa
+		font-fenix
+		font-finger-paint
+		font-fira-code
+		font-fira-code-nerd-font
+		font-fira-mono
+		font-fira-mono-for-powerline
+		font-fira-mono-nerd-font
+		font-fira-sans
+		font-fira-sans-condensed
+		font-fira-sans-extra-condensed
+		font-firago
+		font-fjalla-one
+		font-fjord-one
+		font-flamenco
+		font-flavors
+		font-fondamento
+		font-fontawesome
+		font-fontdiner-swanky
+		font-forum
+		font-foundation-icons
+		font-foundry-sterling
+		font-francois-one
+		font-frank-ruhl-libre
+		font-freckle-face
+		font-fredericka-the-great
+		font-fredoka-one
+		font-freefont
+		font-freehand
+		font-fresca
+		font-frijole
+		font-fruktur
+		font-fugaz-one
+		font-fzshusong-z01
+		font-gabriela
+		font-gaegu
+		font-gafata
+		font-galada
+		font-galdeano
+		font-galindo
+		font-gamja-flower
+		font-gandhi-sans
+		font-gayathri
+		font-gelasio
+		font-gemunu-libre
+		font-genjyuugothic
+		font-genjyuugothic-x
+		font-genryumin
+		font-gensekigothic
+		font-gensenrounded
+		font-genshingothic
+		font-gentium-basic
+		font-gentium-book-basic
+		font-gentium-plus
+		font-genwanmin
+		font-genyogothic
+		font-genyomin
+		font-geo
+		font-georgia
+		font-geostar
+		font-geostar-fill
+		font-germania-one
+		font-gfs-didot
+		font-gfs-neohellenic
+		font-gidole
+		font-gidugu
+		font-gilbert
+		font-gilda-display
+		font-girassol
+		font-give-you-glory
+		font-glass-antiqua
+		font-glegoo
+		font-gloria-hallelujah
+		font-glow-sans-j-compressed
+		font-glow-sans-j-condensed
+		font-glow-sans-j-extended
+		font-glow-sans-j-normal
+		font-glow-sans-j-wide
+		font-glow-sans-sc-compressed
+		font-glow-sans-sc-condensed
+		font-glow-sans-sc-extended
+		font-glow-sans-sc-normal
+		font-glow-sans-sc-wide
+		font-glow-sans-tc-compressed
+		font-glow-sans-tc-condensed
+		font-glow-sans-tc-extended
+		font-glow-sans-tc-normal
+		font-glow-sans-tc-wide
+		font-gnu-unifont
+		font-go
+		font-goblin-one
+		font-gochi-hand
+		font-gohufont-nerd-font
+		font-gomono-nerd-font
+		font-gorditas
+		font-gothic-a1
+		font-gotu
+		font-goudy-bookletter-1911
+		font-graduate
+		font-grand-hotel
+		font-gravitas-one
+		font-great-vibes
+		font-grenze
+		font-grenze-gotisch
+		font-griffy
+		font-gruppo
+		font-gudea
+		font-gugi
+		font-gupter
+		font-gurajada
+		font-habibi
+		font-hack
+		font-hack-nerd-font
+		font-hackgen
+		font-halant
+		font-hammersmith-one
+		font-han-nom-a
+		font-hanalei
+		font-hanalei-fill
+		font-hanamina
+		font-handlee
+		font-hannari
+		font-hanuman
+		font-happy-monkey
+		font-harmattan
+		font-hasklig
+		font-hasklug-nerd-font
+		font-headland-one
+		font-heavydata-nerd-font
+		font-heebo
+		font-henny-penny
+		font-hepta-slab
+		font-hermeneus-one
+		font-herr-von-muellerhoff
+		font-hi-melody
+		font-hind
+		font-hind-colombo
+		font-hind-guntur
+		font-hind-jalandhar
+		font-hind-kochi
+		font-hind-madurai
+		font-hind-mysuru
+		font-hind-siliguri
+		font-hind-vadodara
+		font-holtwood-one-sc
+		font-homemade-apple
+		font-homenaje
+		font-humor-sans
+		font-hurmit-nerd-font
+		font-hyppolit
+		font-ia-writer-duo
+		font-ia-writer-duospace
+		font-ia-writer-mono
+		font-ia-writer-quattro
+		font-ibarra-real-nova
+		font-ibm-plex
+		font-ibm-plex-mono
+		font-ibm-plex-sans
+		font-ibm-plex-sans-condensed
+		font-ibm-plex-serif
+		font-iceberg
+		font-iceland
+		font-icomoon
+		font-im-fell-double-pica
+		font-im-fell-double-pica-sc
+		font-im-fell-dw-pica
+		font-im-fell-dw-pica-sc
+		font-im-fell-english
+		font-im-fell-english-sc
+		font-im-fell-french-canon
+		font-im-fell-french-canon-sc
+		font-im-fell-great-primer
+		font-im-fell-great-primer-sc
+		font-im-fell-types
+		font-impact
+		font-imprima
+		font-imwriting-nerd-font
+		font-inconsolata
+		font-inconsolata-dz-for-powerline
+		font-inconsolata-for-powerline
+		font-inconsolata-for-powerline-bold
+		font-inconsolata-g
+		font-inconsolata-g-for-powerline
+		font-inconsolata-lgc
+		font-inconsolata-nerd-font
+		font-inconsolatago-nerd-font
+		font-inconsolatalgc-nerd-font
+		font-inder
+		font-indie-flower
+		font-infini
+		font-inika
+		font-inknut-antiqua
+		font-input
+		font-inria
+		font-inria-sans
+		font-inria-serif
+		font-inter
+		font-ionicons
+		font-iosevka
+		font-iosevka-aile
+		font-iosevka-curly
+		font-iosevka-curly-slab
+		font-iosevka-etoile
+		font-iosevka-nerd-font
+		font-iosevka-slab
+		font-iosevka-sparkle
+		font-iosevka-ss01
+		font-iosevka-ss02
+		font-iosevka-ss03
+		font-iosevka-ss04
+		font-iosevka-ss05
+		font-iosevka-ss06
+		font-iosevka-ss07
+		font-iosevka-ss08
+		font-iosevka-ss09
+		font-iosevka-ss10
+		font-iosevka-ss11
+		font-iosevka-ss12
+		font-iosevka-ss13
+		font-iosevka-ss14
+		font-ipaexfont
+		font-ipafont
+		font-ipamjmincho
+		font-iranian-sans
+		font-iranian-serif
+		font-irish-grover
+		font-istok-web
+		font-italiana
+		font-italianno
+		font-itim
+		font-jaapokki
+		font-jacques-francois
+		font-jacques-francois-shadow
+		font-jaldi
+		font-jeju-gothic
+		font-jeju-hallasan
+		font-jeju-myeongjo
+		font-jetbrains-mono
+		font-jetbrainsmono-nerd-font
+		font-jf-open-huninn
+		font-jim-nightshade
+		font-jockey-one
+		font-jolly-lodger
+		font-jomhuria
+		font-jomolhari
+		font-joscelyn
+		font-josefin-sans
+		font-josefin-sans-std-light
+		font-josefin-slab
+		font-jost
+		font-joti-one
+		font-jsmath-cmbx10
+		font-jsmath-cmex10
+		font-jsmath-cmmi10
+		font-jsmath-cmr10
+		font-jsmath-cmsy10
+		font-jsmath-cmti10
+		font-jua
+		font-judson
+		font-julee
+		font-julius-sans-one
+		font-junction
+		font-junge
+		font-junicode
+		font-jura
+		font-just-another-hand
+		font-just-me-again-down-here
+		font-k2d
+		font-kadwa
+		font-kalam
+		font-kameron
+		font-kanit
+		font-kantumruy
+		font-karla
+		font-karla-tamil-inclined
+		font-karla-tamil-upright
+		font-karma
+		font-katibeh
+		font-kaushan-script
+		font-kavivanar
+		font-kavoon
+		font-kawkab-mono
+		font-kdam-thmor
+		font-keania-one
+		font-kelly-slab
+		font-kenia
+		font-khand
+		font-khmer
+		font-khula
+		font-khyay
+		font-kirang-haerang
+		font-kite-one
+		font-knewave
+		font-ko-pub-batang
+		font-kodchasan
+		font-koho
+		font-kokoro
+		font-kotta-one
+		font-koulen
+		font-kranky
+		font-kreon
+		font-kristi
+		font-krona-one
+		font-krub
+		font-kulim-park
+		font-kumar-one
+		font-kurale
+		font-la-belle-aurore
+		font-lacquer
+		font-laila
+		font-lakki-reddy
+		font-lalezar
+		font-lancelot
+		font-langdon
+		font-lao-muang-don
+		font-lao-muang-khong
+		font-lao-sans-pro
+		font-lateef
+		font-latin-modern
+		font-latin-modern-math
+		font-lato
+		font-league-gothic
+		font-league-script
+		font-league-spartan
+		font-leckerli-one
+		font-ledger
+		font-lekton
+		font-lekton-nerd-font
+		font-lemon
+		font-lemonada
+		font-lemonada-vf-beta
+		font-lexend-deca
+		font-lexend-exa
+		font-lexend-giga
+		font-lexend-mega
+		font-lexend-peta
+		font-lexend-tera
+		font-lexend-zetta
+		font-liberation
+		font-liberation-mono-for-powerline
+		font-liberation-nerd-font
+		font-libertinus
+		font-libre-barcode-128
+		font-libre-barcode-128-text
+		font-libre-barcode-39
+		font-libre-barcode-39-extended
+		font-libre-barcode-39-extended-text
+		font-libre-barcode-39-text
+		font-libre-baskerville
+		font-libre-caslon-display
+		font-libre-caslon-text
+		font-libre-franklin
+		font-life-savers
+		font-ligature-symbols
+		font-lilex
+		font-lilita-one
+		font-lily-script-one
+		font-limelight
+		font-linden-hill
+		font-linux-biolinum
+		font-linux-libertine
+		font-literata
+		font-liu-jian-mao-cao
+		font-livvic
+		font-lobster
+		font-lobster-two
+		font-lohit
+		font-lohit-bengali
+		font-lohit-tamil
+		font-londrina-outline
+		font-londrina-shadow
+		font-londrina-sketch
+		font-londrina-solid
+		font-long-cang
+		font-lora
+		font-love-ya-like-a-sister
+		font-loved-by-the-king
+		font-lovers-quarrel
+		font-luckiest-guy
+		font-luculent
+		font-lusitana
+		font-lustria
+		font-m-plus
+		font-ma-shan-zheng
+		font-macondo
+		font-macondo-swash-caps
+		font-mada
+		font-magra
+		font-maiden-orange
+		font-maitree
+		font-major-mono-display
+		font-mako
+		font-mali
+		font-mallanna
+		font-mandali
+		font-manjari
+		font-manrope
+		font-mansalva
+		font-manuale
+		font-marcellus
+		font-marcellus-sc
+		font-marck-script
+		font-margarine
+		font-markazi-text
+		font-marko-one
+		font-marmelad
+		font-martel
+		font-martel-sans
+		font-marvel
+		font-masinahikan
+		font-masinahikan-dene
+		font-mate
+		font-mate-sc
+		font-material-icons
+		font-materialdesignicons-webfont
+		font-maven-pro
+		font-maven-pro-vf-beta
+		font-mclaren
+		font-meddon
+		font-medievalsharp
+		font-medula-one
+		font-meera-inimai
+		font-megrim
+		font-meie-script
+		font-meltho
+		font-menlo-for-powerline
+		font-merge-one
+		font-merienda
+		font-merienda-one
+		font-merriweather
+		font-merriweather-sans
+		font-mervale-script
+		font-meslo-for-powerline
+		font-meslo-lg
+		font-meslolg-nerd-font
+		font-metal
+		font-metal-mania
+		font-metamorphous
+		font-metrophobic
+		font-metropolis
+		font-miama
+		font-miao-unicode
+		font-michroma
+		font-migmix-1m
+		font-migmix-1p
+		font-migmix-2m
+		font-migmix-2p
+		font-migu-1c
+		font-migu-1m
+		font-migu-1p
+		font-migu-2m
+		font-milonga
+		font-miltonian
+		font-miltonian-tattoo
+		font-mina
+		font-miniver
+		font-miriam-libre
+		font-miriam-mono-clm
+		font-mirza
+		font-miss-fajardose
+		font-miss-saint-delafield
+		font-mitr
+		font-modak
+		font-modern-antiqua
+		font-mogra
+		font-mohave
+		font-molengo
+		font-molle
+		font-monda
+		font-monofett
+		font-monofur-for-powerline
+		font-monofur-nerd-font
+		font-monoid
+		font-monoid-nerd-font
+		font-monoisome
+		font-mononoki
+		font-mononoki-nerd-font
+		font-monoton
+		font-monsieur-la-doulaise
+		font-montaga
+		font-montez
+		font-montserrat
+		font-montserrat-alternates
+		font-montserrat-subrayada
+		font-moul
+		font-moulpali
+		font-mountains-of-christmas
+		font-mouse-memoirs
+		font-mplus
+		font-mplus-nerd-font
+		font-mr-bedford
+		font-mr-bedfort
+		font-mr-dafoe
+		font-mr-de-haviland
+		font-mrs-saint-delafield
+		font-mrs-sheppards
+		font-mukta
+		font-mukta-mahee
+		font-mukta-malar
+		font-mukta-vaani
+		font-mukti-narrow
+		font-muli
+		font-museo
+		font-museomoderno
+		font-myanmar-sans-pro
+		font-myrica
+		font-myricam
+		font-mystery-quest
+		font-n-gage
+		font-nanum-brush-script
+		font-nanum-gothic
+		font-nanum-gothic-coding
+		font-nanum-myeongjo
+		font-nanum-pen-script
+		font-national-park
+		font-nats
+		font-neodunggeunmo
+		font-neodunggeunmo-code
+		font-neucha
+		font-neuton
+		font-new-rocker
+		font-news-cycle
+		font-nico-moji
+		font-niconne
+		font-nikukyu
+		font-nimbus-sans-l
+		font-niramit
+		font-nixie-one
+		font-nobile
+		font-nokora
+		font-norican
+		font-nosifer
+		font-nosifer-caps
+		font-notable
+		font-nothing-you-could-do
+		font-noticia-text
+		font-noto-color-emoji
+		font-noto-emoji
+		font-noto-kufi-arabic
+		font-noto-mono
+		font-noto-mono-for-powerline
+		font-noto-naskh-arabic
+		font-noto-nastaliq-urdu
+		font-noto-nerd-font
+		font-noto-sans
+		font-noto-sans-adlam
+		font-noto-sans-adlam-unjoined
+		font-noto-sans-anatolian-hieroglyphs
+		font-noto-sans-arabic
+		font-noto-sans-armenian
+		font-noto-sans-avestan
+		font-noto-sans-balinese
+		font-noto-sans-bamum
+		font-noto-sans-batak
+		font-noto-sans-bengali
+		font-noto-sans-brahmi
+		font-noto-sans-buginese
+		font-noto-sans-buhid
+		font-noto-sans-canadian-aboriginal
+		font-noto-sans-carian
+		font-noto-sans-chakma
+		font-noto-sans-cham
+		font-noto-sans-cherokee
+		font-noto-sans-cjk
+		font-noto-sans-cjk-jp
+		font-noto-sans-cjk-kr
+		font-noto-sans-cjk-sc
+		font-noto-sans-cjk-tc
+		font-noto-sans-coptic
+		font-noto-sans-cuneiform
+		font-noto-sans-cypriot
+		font-noto-sans-deseret
+		font-noto-sans-devanagari
+		font-noto-sans-display
+		font-noto-sans-egyptian-hieroglyphs
+		font-noto-sans-ethiopic
+		font-noto-sans-georgian
+		font-noto-sans-glagolitic
+		font-noto-sans-gothic
+		font-noto-sans-gujarati
+		font-noto-sans-gurmukhi
+		font-noto-sans-hanunoo
+		font-noto-sans-hebrew
+		font-noto-sans-imperial-aramaic
+		font-noto-sans-inscriptional-pahlavi
+		font-noto-sans-inscriptional-parthian
+		font-noto-sans-javanese
+		font-noto-sans-kaithi
+		font-noto-sans-kannada
+		font-noto-sans-kayah-li
+		font-noto-sans-kharoshthi
+		font-noto-sans-khmer
+		font-noto-sans-lao
+		font-noto-sans-lepcha
+		font-noto-sans-limbu
+		font-noto-sans-linear-b
+		font-noto-sans-lisu
+		font-noto-sans-lycian
+		font-noto-sans-lydian
+		font-noto-sans-malayalam
+		font-noto-sans-mandaic
+		font-noto-sans-meetei-mayek
+		font-noto-sans-mongolian
+		font-noto-sans-mono
+		font-noto-sans-myanmar
+		font-noto-sans-n-ko
+		font-noto-sans-new-tai-lue
+		font-noto-sans-ogham
+		font-noto-sans-ol-chiki
+		font-noto-sans-old-italic
+		font-noto-sans-old-persian
+		font-noto-sans-old-south-arabian
+		font-noto-sans-old-turkic
+		font-noto-sans-oriya
+		font-noto-sans-osage
+		font-noto-sans-osmanya
+		font-noto-sans-phags-pa
+		font-noto-sans-phoenician
+		font-noto-sans-rejang
+		font-noto-sans-runic
+		font-noto-sans-samaritan
+		font-noto-sans-saurashtra
+		font-noto-sans-shavian
+		font-noto-sans-sinhala
+		font-noto-sans-sundanese
+		font-noto-sans-syloti-nagri
+		font-noto-sans-symbols
+		font-noto-sans-symbols2
+		font-noto-sans-syriac-eastern
+		font-noto-sans-syriac-estrangela
+		font-noto-sans-syriac-western
+		font-noto-sans-tagalog
+		font-noto-sans-tagbanwa
+		font-noto-sans-tai-le
+		font-noto-sans-tai-tham
+		font-noto-sans-tai-viet
+		font-noto-sans-tamil
+		font-noto-sans-telugu
+		font-noto-sans-thaana
+		font-noto-sans-thai
+		font-noto-sans-tibetan
+		font-noto-sans-tifinagh
+		font-noto-sans-ugaritic
+		font-noto-sans-vai
+		font-noto-sans-yi
+		font-noto-serif
+		font-noto-serif-armenian
+		font-noto-serif-bengali
+		font-noto-serif-cjk
+		font-noto-serif-cjk-jp
+		font-noto-serif-cjk-kr
+		font-noto-serif-cjk-sc
+		font-noto-serif-cjk-tc
+		font-noto-serif-devanagari
+		font-noto-serif-display
+		font-noto-serif-ethiopic
+		font-noto-serif-gujarati
+		font-noto-serif-hebrew
+		font-noto-serif-kannada
+		font-noto-serif-khmer
+		font-noto-serif-lao
+		font-noto-serif-malayalam
+		font-noto-serif-myanmar
+		font-noto-serif-sinhala
+		font-noto-serif-tamil
+		font-noto-serif-telugu
+		font-noto-serif-thai
+		font-nova-cut
+		font-nova-flat
+		font-nova-mono
+		font-nova-oval
+		font-nova-round
+		font-nova-script
+		font-nova-slim
+		font-nova-square
+		font-ntr
+		font-numans
+		font-nunito
+		font-nunito-sans
+		font-ocr
+		font-odibee-sans
+		font-odor-mean-chey
+		font-office-code-pro
+		font-offside
+		font-ofl-sorts-mill-goudy-tt
+		font-old-standard-tt
+		font-oldenburg
+		font-oleo-script
+		font-oleo-script-swash-caps
+		font-open-iconic
+		font-open-sans
+		font-open-sans-condensed
+		font-open-sans-hebrew
+		font-open-sans-hebrew-condensed
+		font-opendyslexic
+		font-opendyslexic-nerd-font
+		font-oppo-sans
+		font-optician-sans
+		font-oranienbaum
+		font-orbitron
+		font-oregano
+		font-orienta
+		font-original-surfer
+		font-ostrich-sans
+		font-oswald
+		font-over-the-rainbow
+		font-overlock
+		font-overlock-sc
+		font-overpass
+		font-overpass-mono
+		font-overpass-nerd-font
+		font-ovo
+		font-oxanium
+		font-oxygen
+		font-oxygen-mono
+		font-pacifico
+		font-padauk
+		font-palanquin
+		font-palanquin-dark
+		font-pangolin
+		font-paprika
+		font-parisienne
+		font-passero-one
+		font-passion-one
+		font-pathway-gothic-one
+		font-patrick-hand
+		font-patrick-hand-sc
+		font-pattaya
+		font-patua-one
+		font-pavanam
+		font-paytone-one
+		font-pecita
+		font-peddana
+		font-peralta
+		font-permanent-marker
+		font-petit-formal-script
+		font-petrona
+		font-phetsarath
+		font-philosopher
+		font-piedra
+		font-pinyon-script
+		font-pirata-one
+		font-plaster
+		font-play
+		font-playball
+		font-playfair-display
+		font-playfair-display-sc
+		font-podkova
+		font-podkova-vf-beta
+		font-poetsen-one
+		font-poiret-one
+		font-poller-one
+		font-poly
+		font-pompiere
+		font-ponnala
+		font-pontano-sans
+		font-poor-story
+		font-poppins
+		font-poppins-latin
+		font-port-lligat-sans
+		font-port-lligat-slab
+		font-porter-sans-block
+		font-post-no-bills-colombo
+		font-post-no-bills-jaffna
+		font-powerline-symbols
+		font-pragati-narrow
+		font-prata
+		font-preahvihear
+		font-press-start-2p
+		font-pridi
+		font-princess-sofia
+		font-prociono
+		font-profont-nerd-font
+		font-profontx
+		font-proggycleantt-nerd-font
+		font-prompt
+		font-prosto-one
+		font-proza-libre
+		font-pt-mono
+		font-pt-sans
+		font-pt-sans-caption
+		font-pt-sans-narrow
+		font-pt-serif
+		font-pt-serif-caption
+		font-public-sans
+		font-puritan
+		font-purple-purse
+		font-pushster
+		font-px437-pxplus
+		font-quando
+		font-quantico
+		font-quattrocento
+		font-quattrocento-sans
+		font-questrial
+		font-quicksand
+		font-quintessential
+		font-qwigley
+Wed Jul 29 09:33:46 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 1 tap (homebrew/core).
+		==> Updated Formulae
+		Updated 1 formula.
+		
+		==> Upgrading 4 outdated packages:
+		json-c 0.14 -> 0.15
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		git 2.27.0 -> 2.28.0
+		==> Upgrading json-c 0.14 -> 0.15 
+		==> Downloading https://github.com/json-c/json-c/archive/json-c-0.15-20200726.tar.gz
+		==> Downloading from https://codeload.github.com/json-c/json-c/tar.gz/json-c-0.15-20200726
+
+	pip3 install -U pip
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+		font-racing-sans-one
+		font-radley
+		font-rajdhani
+		font-rakkas
+		font-raleway
+		font-raleway-dots
+		font-ramabhadra
+		font-ramaraja
+		font-rambla
+		font-rammetto-one
+		font-ranchers
+		font-rancho
+		font-ranga
+		font-rasa
+		font-rationale
+		font-ravi-prakash
+		font-recursive
+		font-red-hat-display
+		font-red-hat-text
+		font-redacted
+		font-redacted-script
+		font-redhat
+		font-redressed
+		font-reem-kufi
+		font-reenie-beanie
+		font-revalia
+		font-rhodium-libre
+		font-ribeye
+		font-ribeye-marrow
+		font-ricty-diminished
+		font-righteous
+		font-risque
+		font-roboto
+		font-roboto-mono
+		font-roboto-mono-for-powerline
+		font-roboto-slab
+		font-robotomono-nerd-font
+		font-rochester
+		font-rock-salt
+		font-rokkitt
+		font-rokkitt-vf-beta
+		font-romanesco
+		font-ropa-sans
+		font-rosario
+		font-rosarivo
+		font-rouge-script
+		font-rounded-m-plus
+		font-rounded-mplus
+		font-routed-gothic
+		font-rowdies
+		font-rozha-one
+		font-rubik
+		font-rubik-mono-one
+		font-rubik-one
+		font-ruda
+		font-rufina
+		font-ruge-boogie
+		font-ruluko
+		font-rum-raisin
+		font-ruslan-display
+		font-russo-one
+		font-ruthie
+		font-rye
+		font-sacramento
+		font-sahitya
+		font-sail
+		font-saira
+		font-saira-condensed
+		font-saira-extra-condensed
+		font-saira-semi-condensed
+		font-saira-stencil-one
+		font-salsa
+		font-sanchez
+		font-sancreek
+		font-sans-forgetica
+		font-sansation
+		font-sansita
+		font-sansita-one
+		font-sarabun
+		font-sarala
+		font-sarasa-gothic
+		font-sarina
+		font-sarpanch
+		font-satisfy
+		font-saucecodepro-nerd-font
+		font-sawarabi-gothic
+		font-sawarabi-mincho
+		font-scada
+		font-scheherazade
+		font-schoolbell
+		font-scope-one
+		font-seaweed-script
+		font-secular-one
+		font-sedan
+		font-sedan-sc
+		font-sedgwick-ave
+		font-sedgwick-ave-display
+		font-sen
+		font-seoul-hangang
+		font-seoul-hangang-condensed
+		font-seoul-namsan
+		font-seoul-namsan-condensed
+		font-seoul-namsan-vertical
+		font-sevillana
+		font-seymour-one
+		font-shadows-into-light
+		font-shadows-into-light-two
+		font-shanti
+		font-share
+		font-share-tech
+		font-share-tech-mono
+		font-shojumaru
+		font-short-stack
+		font-shrikhand
+		font-shuretechmono-nerd-font
+		font-siamreap
+		font-siemreap
+		font-sigmar-one
+		font-signika
+		font-signika-negative
+		font-simonetta
+		font-simple-line-icons
+		font-single-day
+		font-sintony
+		font-sirin-stencil
+		font-sitara
+		font-six-caps
+		font-skranji
+		font-slabo-13px
+		font-slabo-27px
+		font-slackey
+		font-smokum
+		font-smythe
+		font-sniglet
+		font-snippet
+		font-snowburst-one
+		font-sofadi-one
+		font-sofia
+		font-solway
+		font-sometype-mono
+		font-song-myung
+		font-sonsie-one
+		font-sora
+		font-sorts-mill-goudy
+		font-souliyo
+		font-source-code-pro
+		font-source-code-pro-for-powerline
+		font-source-han-code-jp
+		font-source-han-mono
+		font-source-han-noto-cjk
+		font-source-han-sans
+		font-source-han-serif
+		font-source-han-serif-el-m
+		font-source-han-serif-sb-h
+		font-source-sans-pro
+		font-source-serif-pro
+		font-space-grotesk
+		font-space-mono
+		font-spacemono-nerd-font
+		font-spartan
+		font-special-elite
+		font-spectral
+		font-spectral-sc
+		font-spicy-rice
+		font-spinnaker
+		font-spirax
+		font-spleen
+		font-squada-one
+		font-sree-krushnadevaraya
+		font-sriracha
+		font-srisakdi
+		font-staatliches
+		font-stalemate
+		font-stalin-one
+		font-stalinist-one
+		font-stardos-stencil
+		font-stint-ultra-condensed
+		font-stint-ultra-expanded
+		font-stix
+		font-stoke
+		font-strait
+		font-strong
+		font-stylish
+		font-sudo
+		font-sue-ellen-francisco
+		font-suez-one
+		font-sulphur-point
+		font-sumana
+		font-sunflower
+		font-sunshiney
+		font-supermercado-one
+		font-sura
+		font-suranna
+		font-suravaram
+		font-suwannaphum
+		font-swanky-and-moo-moo
+		font-syncopate
+		font-tajawal
+		font-takaoex
+		font-tangerine
+		font-taprom
+		font-tauri
+		font-taviraj
+		font-teko
+		font-telex
+		font-tenali-ramakrishna
+		font-tenor-sans
+		font-terminal-dosis
+		font-terminal-dosis-light
+		font-terminessttf-nerd-font
+		font-terminus
+		font-tex-gyre-adventor
+		font-tex-gyre-bonum
+		font-tex-gyre-bonum-math
+		font-tex-gyre-chorus
+		font-tex-gyre-cursor
+		font-tex-gyre-heros
+		font-tex-gyre-pagella
+		font-tex-gyre-pagella-math
+		font-tex-gyre-schola
+		font-tex-gyre-schola-math
+		font-tex-gyre-termes
+		font-tex-gyre-termes-math
+		font-text-me-one
+		font-thabit
+		font-tharlon
+		font-thasadith
+		font-the-girl-next-door
+		font-tienne
+		font-tillana
+		font-times-new-roman
+		font-timmana
+		font-tinos
+		font-tinos-nerd-font
+		font-titan-one
+		font-titillium
+		font-titillium-web
+		font-tomorrow
+		font-trade-winds
+		font-trebuchet-ms
+		font-trirong
+		font-trocchi
+		font-trochut
+		font-trykker
+		font-tuffy
+		font-tulpen-one
+		font-turret-road
+		font-twitter-color-emoji
+		font-typographer-woodcut-initials-one
+		font-ubuntu
+		font-ubuntu-condensed
+		font-ubuntu-mono
+		font-ubuntu-mono-derivative-powerline
+		font-ubuntu-nerd-font
+		font-ubuntumono-nerd-font
+		font-uchen
+		font-ultra
+		font-uncial-antiqua
+		font-underdog
+		font-unica-one
+		font-unifrakturcook
+		font-unifrakturmaguntia
+		font-unkempt
+		font-unlock
+		font-unna
+		font-urbanist
+		font-urw-base35
+		font-vampiro-one
+		font-varela
+		font-varela-round
+		font-varta
+		font-vast-shadow
+		font-verdana
+		font-vesper-libre
+		font-viaoda-libre
+		font-vibes
+		font-vibur
+		font-victor-mono
+		font-victormono-nerd-font
+		font-vidaloka
+		font-viga
+		font-voces
+		font-volkhov
+		font-vollkorn
+		font-vollkorn-sc
+		font-voltaire
+		font-vt323
+		font-waiting-for-the-sunrise
+		font-wallpoet
+		font-walter-turncoat
+		font-warnes
+		font-wellfleet
+		font-wendy-one
+		font-wire-one
+		font-work-sans
+		font-xits
+		font-xkcd
+		font-xkcd-script
+		font-yaldevi-colombo
+		font-yanone-kaffeesatz
+		font-yantramanav
+		font-yatra-one
+		font-yellowtail
+		font-yeon-sung
+		font-yeseva-one
+		font-yesteryear
+		font-yinmar
+		font-yrsa
+		font-ysabeau
+		font-zcool-kuaile
+		font-zcool-qingke-huangyou
+		font-zcool-xiaowei
+		font-zeyada
+		font-zhi-mang-xing
+		font-zilla-slab
+		font-zilla-slab-highlight
+		jitsi-meet
+		sublime-merge
+		==> Deleted Casks
+		pprows
+		
+		==> Upgrading 5 outdated packages:
+		json-c 0.14 -> 0.15
+		gnu-getopt 2.35.2 -> 2.36
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		git 2.27.0 -> 2.28.0
+		==> Upgrading gnu-getopt 2.35.2 -> 2.36 
+		==> Downloading https://homebrew.bintray.com/bottles/gnu-getopt-2.36.catalina.bottle.tar.gz
+		==> Pouring gnu-getopt-2.36.catalina.bottle.tar.gz
+		==> Caveats
+		gnu-getopt is keg-only, which means it was not symlinked into /usr/local,
+		because macOS already provides this software and installing another version in
+		parallel can cause all kinds of trouble.
+		
+		If you need to have gnu-getopt first in your PATH run:
+		  echo 'export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"' >> ~/.zshrc
+		
+		
+		Bash completion has been installed to:
+		  /usr/local/opt/gnu-getopt/etc/bash_completion.d
+		==> Summary
+		🚀  /usr/local/Cellar/gnu-getopt/2.36: 10 files, 166.2KB
+		Removing: /usr/local/Cellar/gnu-getopt/2.35.2... (10 files, 164.6KB)
+		==> Upgrading json-c 0.14 -> 0.15 
+		==> Downloading https://homebrew.bintray.com/bottles/json-c-0.15.catalina.bottle.tar.gz
+		==> Downloading https://github.com/json-c/json-c/archive/json-c-0.15-20200726.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/724cbd959a1edb0c09cb1389bb589ba55ce68d9b07b78b16812a6b25f60d5078--json-c-json-c-0.15-20200726.tar.gz
+
+	pip3 install -U pip
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Thu Jul 30 03:02:01 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> Updated Formulae
+		Updated 153 formulae.
+		==> Updated Casks
+		alt-tab
+		anydo
+		autopkgr
+		avocode
+		bitwarden
+		clockify
+		daedalus-mainnet
+		deezer
+		electronmail
+		epichrome
+		firefox
+		fsnotes
+		gfortran
+		google-earth-pro
+		insync
+		jumpshare
+		loom
+		microsoft-edge
+		miniconda
+		nvidia-geforce-now
+		omnigraffle
+		openaudible
+		openzfs
+		parallels-toolbox
+		plex
+		preferencecleaner
+		publish-or-perish
+		quicken
+		razorsql
+		refined-github-safari
+		remember-the-milk
+		remote-desktop-manager
+		remote-desktop-manager-free
+		rhinoceros
+		sim-genie
+		sipgate-softphone
+		smartgit
+		sound-siphon
+		sqlectron
+		swiftformat-for-xcode
+		vivaldi
+		vlc
+		wavebox
+		webcatalog
+		wechat
+		wondershare-uniconverter
+		
+		==> Upgrading 6 outdated packages:
+		json-c 0.14 -> 0.15
+		gdbm 1.18.1 -> 1.18.1_1
+		glib 2.64.4 -> 2.64.4_1
+		nss 3.54 -> 3.55
+		nspr 4.26 -> 4.27
+		git 2.27.0 -> 2.28.0
+		==> Upgrading json-c 0.14 -> 0.15 
+		==> Downloading https://homebrew.bintray.com/bottles/json-c-0.15.catalina.bottle.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/27851ee17603f43d0f6368750111a159cbd409849f490f8dc61148ca71aca54c--json-c-0.15.catalina.bottle.tar.gz
+		==> Pouring json-c-0.15.catalina.bottle.tar.gz
+		🚀  /usr/local/Cellar/json-c/0.15: 32 files, 276.9KB
+		Removing: /usr/local/Cellar/json-c/0.14... (32 files, 194.9KB)
+		==> Upgrading gdbm 1.18.1 -> 1.18.1_1 
+		==> Downloading https://homebrew.bintray.com/bottles/gdbm-1.18.1_1.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/f7b5ab7363961fa6defcb66b4ffdf5365264fcb97d35bc413e754f173a3b1912?response-content-disposition=attachment%3Bfilename%3D%22gdbm-1.18.1_1.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvZjdiNWFiNzM2Mzk2MWZhNmRlZmNiNjZiNGZmZGY1MzY1MjY0ZmNiOTdkMzViYzQxM2U3NTRmMTczYTNiMTkxMj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmdkYm0tMS4xOC4xXzEuY2F0YWxpbmEuYm90dGxlLnRhci5neiUyMiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU5NjEwMDQ1OH0sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=h9iW8qRDNIELxQgePf~ucIW2saWcktfEKuL0qWAHTn1eHfOdUt1gLKRZHwze4IL6wvX8Tl4KHn0CT~RRMbz8A6ExGglEItLJo1YD5xuVyeW8B-0lVyScvlT6dTj1-brjfiRSFqfdPTwy57Nz2MroDJra-PC-ln-KEcsDntqL~~d8UOSFHcYiVV3ZkdqEz0-P6VZVyOCWvSKXHmCp3pFBpgM2qWKfIPgBkPiIEz7TTu7nl0C5t69l3fi73tz7KrZJhd0y6HLN53Vd0rXC4WQaOmTOagjMyd1JrSAp9gbQ2arOCkoLMG0jOC03MXly492TQbL6MfZktTXw5GHzvgiaow__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring gdbm-1.18.1_1.catalina.bottle.tar.gz
+		🚀  /usr/local/Cellar/gdbm/1.18.1_1: 25 files, 641.0KB
+		Removing: /usr/local/Cellar/gdbm/1.18.1... (20 files, 602.8KB)
+		==> Upgrading glib 2.64.4 -> 2.64.4_1 
+		==> Downloading https://homebrew.bintray.com/bottles/glib-2.64.4_1.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/5b4079bc14d3e16b745686b6cc7a3bca8877ac914f4ea11b82cda7e5af21c51c?response-content-disposition=attachment%3Bfilename%3D%22glib-2.64.4_1.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvNWI0MDc5YmMxNGQzZTE2Yjc0NTY4NmI2Y2M3YTNiY2E4ODc3YWM5MTRmNGVhMTFiODJjZGE3ZTVhZjIxYzUxYz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmdsaWItMi42NC40XzEuY2F0YWxpbmEuYm90dGxlLnRhci5neiUyMiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU5NjEwMDQ2NX0sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=jGqDMdT7cSmRvNNUnspLkg1o0hDg2QNSSoKs1cLTCkjIMPZHhosni7BoSdLoXUc8JXwTMW4I6c~TNEfPzCAy5ZS~qsdIRz2J~RBVsxAEF~wCWBTDIm9fF~1dH7LtXMMkJKDv3NQf2zF8tUBOEB5HPEli930LtW3j822cAXqssMLf1JR5VBbud4u8JOuuzELdh7GrgrpffhyVWnFH-zL9Ohch4kzyPkMEE838K8jS13Yqy9aatYfFlOHTEsfd9K56SeoW5J7FMoCO97UeSwkymtYSX0CGsxwEvsUyhdWYYmrpfiHm1RIHdHQoIm0aTlHAOd3PD4FbyfpweQN6Ygu3iw__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring glib-2.64.4_1.catalina.bottle.tar.gz
+		==> Caveats
+		Bash completion has been installed to:
+		  /usr/local/etc/bash_completion.d
+		==> Summary
+		🚀  /usr/local/Cellar/glib/2.64.4_1: 436 files, 14.8MB
+		Removing: /usr/local/Cellar/glib/2.64.4... (436 files, 15.7MB)
+		==> Upgrading nss 3.54 -> 3.55 
+		==> Downloading https://homebrew.bintray.com/bottles/nspr-4.27.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/a9ad990acb59b9578b81d9875d3bdc7633ce21552af014ef77e8b0d07ab94983?response-content-disposition=attachment%3Bfilename%3D%22nspr-4.27.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvYTlhZDk5MGFjYjU5Yjk1NzhiODFkOTg3NWQzYmRjNzYzM2NlMjE1NTJhZjAxNGVmNzdlOGIwZDA3YWI5NDk4Mz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMm5zcHItNC4yNy5jYXRhbGluYS5ib3R0bGUudGFyLmd6JTIyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTk2MTAwNDcyfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=d2sJQsKzoWUYPZ5S3P~mQ8l45VaqRTHfgafOLzQ4bRja8~XLn9YkTyAE-uZiw4xg-tJ~5VQh80S98nJEdc6L4ZpE8DfBeQB9toGnU3DtRKnXbRknzS-2HTWMaypHxSsq6X2VQ69a6vJX1gRwYoeEWRWtTntSQtMBWY4hDV~07Dja2gGOMjz8ua-mD4aOghSqwEXtywptRAN3o~uyUaH9sgydMBu~6ShS5mTXlbPZJjcVPOSO9G94pK8jYiz7SVvDms3SUIOJCxZnBEsatzLM6uXtJ-M8N73emeWqYB-X6JYIfMo4QdS40qsncd0mM1CF9outcTQgbRRsMVRa2Mpijg__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Downloading https://homebrew.bintray.com/bottles/nss-3.55.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/4eeac799c7c64280aad53b5e773edb9d1f071a0a25b784e36f4e7091377c5709?response-content-disposition=attachment%3Bfilename%3D%22nss-3.55.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvNGVlYWM3OTljN2M2NDI4MGFhZDUzYjVlNzczZWRiOWQxZjA3MWEwYTI1Yjc4NGUzNmY0ZTcwOTEzNzdjNTcwOT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMm5zcy0zLjU1LmNhdGFsaW5hLmJvdHRsZS50YXIuZ3olMjIiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1OTYxMDA0NzN9LCJJcEFkZHJlc3MiOnsiQVdTOlNvdXJjZUlwIjoiMC4wLjAuMC8wIn19fV19&Signature=gv5zXvhK9aUZ4bUMy2KZnOaA49waDWvzeNgRDjgxch~6wIJdkBkA7cXjqv~d6HHcFnxO--JuclMAHJIZbwhMWRwHy3zh70birCr26yeIIbtRliUOdiMw5h1qpnXYD-x3TBAZUhJfv3X1bVeXDSUTVFmQ9yk2SeMrIyUkm68IJmWdLReMeCmJh-2dNdNuD~2sTUDaIa4vPnQCLpTGPjEX0LybYqFeavy8K1bFXpnVjhMhIYd9DWU3zpIPYA9o7zIqgMs0CGhq7EhPAHMsGJNBcgHcyPR6LhRtsHBKBDe16XqS3nuoh6Q1tdj8DqHatcKjl~YnQMIZLsgdP7IQJ-O8uw__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Installing dependencies for nss: nspr
+		==> Installing nss dependency: nspr
+		==> Pouring nspr-4.27.catalina.bottle.tar.gz
+		🚀  /usr/local/Cellar/nspr/4.27: 86 files, 1.1MB
+		==> Installing nss
+		==> Pouring nss-3.55.catalina.bottle.tar.gz
+		🚀  /usr/local/Cellar/nss/3.55: 222 files, 34.8MB
+		Removing: /usr/local/Cellar/nss/3.54... (222 files, 34.0MB)
+		==> Upgrading nspr 4.27 -> 4.27 
+		Removing: /usr/local/Cellar/nspr/4.26... (86 files, 1.1MB)
+		==> Upgrading git 2.27.0 -> 2.28.0 
+		==> Downloading https://homebrew.bintray.com/bottles/git-2.28.0.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/6c4d10f29f78dcbefa12fab3e47e7755d5d2ca2e9bbc5aeee4838ad223296d0a?response-content-disposition=attachment%3Bfilename%3D%22git-2.28.0.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvNmM0ZDEwZjI5Zjc4ZGNiZWZhMTJmYWIzZTQ3ZTc3NTVkNWQyY2EyZTliYmM1YWVlZTQ4MzhhZDIyMzI5NmQwYT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmdpdC0yLjI4LjAuY2F0YWxpbmEuYm90dGxlLnRhci5neiUyMiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU5NjEwMDQ4OH0sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=lTFO92sHQEdwQtOS9O3fM~TS3-ivvmfsumWIa8upksHTva0UiTgAD9djE7WHxnxCvOjTKQ2ne6e4z2N5C7aXYOZakirHwlU7HiY9diTxJRvlmmUkd1aoIp1IscWmKcpRIizoLRTpG8VbUsHUFz44tXwmesamw8FP8B8wabkNAa~TTfh1iKY7o8xwBjzyVW-QwYOmcmHSDItiu36t-GfKOTqH6cNtIJaQ7BqvPZY-Q~rts7YKLkwmfdeT63yAy2PImsUYatmfK4yU1pFtasrQLBAA2dSJcwN72r6FOQVPWR6QUgHaMqlUuqhZQemXkhaEhDDPAmMGsKyZlbPfJmwSqg__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring git-2.28.0.catalina.bottle.tar.gz
+		==> Caveats
+		The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+		
+		Bash completion has been installed to:
+		  /usr/local/etc/bash_completion.d
+		
+		zsh completions and functions have been installed to:
+		  /usr/local/share/zsh/site-functions
+		
+		Emacs Lisp files have been installed to:
+		  /usr/local/share/emacs/site-lisp/git
+		==> Summary
+		🚀  /usr/local/Cellar/git/2.28.0: 1,482 files, 48.9MB
+		Removing: /usr/local/Cellar/git/2.27.0... (1,478 files, 48.6MB)
+		==> Caveats
+		==> glib
+		Bash completion has been installed to:
+		  /usr/local/etc/bash_completion.d
+		==> git
+		The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+		
+		Bash completion has been installed to:
+		  /usr/local/etc/bash_completion.d
+		
+		zsh completions and functions have been installed to:
+		  /usr/local/share/zsh/site-functions
+		
+		Emacs Lisp files have been installed to:
+		  /usr/local/share/emacs/site-lisp/git
+		==> No Casks to upgrade
+
+	pip3 install -U pip
+		
+
+	brew cleanup
+		Pruned 0 symbolic links and 2 directories from /usr/local
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Thu Jul 30 09:00:08 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 2b33f995f to 8d97029b0.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		solidity
+		==> Updated Formulae
+		Updated 4 formulae.
+		==> Updated Casks
+		alt-tab
+		clion
+		eloston-chromium
+		goland
+		microsoft-teams
+		onlyoffice
+		phpstorm
+		pycharm
+		pycharm-ce
+		pycharm-ce-with-anaconda-plugin
+		pycharm-edu
+		pycharm-with-anaconda-plugin
+		qq
+		rubymine
+		smlnj
+		sqlectron
+		vidrio
+		
+		==> No Casks to upgrade
+
+	pip3 install -U pip
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Thu Jul 30 11:46:53 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 8d97029b0 to c115d59b2.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 12 formulae.
+		==> Updated Casks
+		fsnotes
+		intune-company-portal
+		microsoft-edge
+		microsoft-excel
+		microsoft-office
+		microsoft-outlook
+		microsoft-powerpoint
+		microsoft-word
+		skype-for-business
+		
+		==> No Casks to upgrade
+
+	pip3 install -U pip
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Fri Jul 31 03:02:48 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from c115d59b2 to a7276adc1.
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> Updated Formulae
+		Updated 39 formulae.
+		==> Updated Casks
+		1password-cli
+		axe-edit-iii
+		badlion-client
+		bbedit
+		c0re100-qbittorrent
+		cacher
+		calibre
+		clickup
+		cmake
+		doly
+		elmedia-player
+		fm3-edit
+		font-ibm-plex
+		front
+		genymotion
+		geogebra
+		hermit-crab
+		hey
+		http-toolkit
+		jprofiler
+		kite
+		lifesize
+		linphone
+		local
+		loom
+		malwarebytes
+		metabase
+		obsidian
+		openboardview
+		rcloneosx
+		refined-github-safari
+		responsively
+		seadrive
+		seafile-client
+		sequel-ace
+		tableau
+		tableau-public
+		tableau-reader
+		timeular
+		understand
+		xmind-zen
+		
+		==> Upgrading 1 outdated package:
+		cmake 3.18.0 -> 3.18.1
+		==> Upgrading cmake 3.18.0 -> 3.18.1 
+		==> Downloading https://homebrew.bintray.com/bottles/cmake-3.18.1.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/590ad7be94461516a5e9c2c4b52316bd77124671bc294835bb7caefc0056d0f6?response-content-disposition=attachment%3Bfilename%3D%22cmake-3.18.1.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvNTkwYWQ3YmU5NDQ2MTUxNmE1ZTljMmM0YjUyMzE2YmQ3NzEyNDY3MWJjMjk0ODM1YmI3Y2FlZmMwMDU2ZDBmNj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmNtYWtlLTMuMTguMS5jYXRhbGluYS5ib3R0bGUudGFyLmd6JTIyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTk2MTg2OTA1fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=Bt7L4iTW-FjODNMUg80lfiJhLPebUuUg7GbDfA~iJW1VDTeGlMTUIwaGJP-nhlDqTd5~7kcMH69T~36RA17Cs~q~wWnUyUXm0rG2QN5cfhJb1AyP5ecONb7ZM-td7iDRHVNNSNghWcwjBF4nE3ONWfFJeR-uMN3~bL69LRj52VzbAcuqBR~dtZaGVjVcY~nBeFzOOisJMecIsI58cTT1nTVizKAKTnxrlRNuRUZnUap6yNjLQllpTU0sniU6n9HSS9CRUdpeUY0YZ9LWvqRnFY~RMwzAB7sdJUCmcSIf7iehGmbVAl18N6byCbxm2PQiADypAJZ5knOZ5ChP-jiF7Q__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring cmake-3.18.1.catalina.bottle.tar.gz
+		==> Caveats
+		Emacs Lisp files have been installed to:
+		  /usr/local/share/emacs/site-lisp/cmake
+		==> Summary
+		🚀  /usr/local/Cellar/cmake/3.18.1: 6,263 files, 60.1MB
+		Removing: /usr/local/Cellar/cmake/3.18.0... (6,263 files, 60MB)
+		Removing: /Users/Michael/Library/Caches/Homebrew/cmake--3.18.0.catalina.bottle.tar.gz... (16.7MB)
+		==> No Casks to upgrade
+
+	pip3 install -U pip
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Fri Jul 31 10:59:27 AM 2020
+	brew upgrade
+		==> Upgrading 1 outdated package:
+		ruby-build 20200722 -> 20200727
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	brew update
+		
+
+	pip3 install -U pip
+		
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/ruby-build--20200722.tar.gz... (67.1KB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Fri Jul 31 09:00:07 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from a7276adc1 to acd5e5836.
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> New Formulae
+		apidoc
+		bond
+		folderify
+		==> Updated Formulae
+		Updated 9 formulae.
+		==> Deleted Formulae
+		cryptopp
+		i386-elf-grub
+		==> Updated Casks
+		font-cica
+		font-hackgen
+		font-neodunggeunmo
+		font-neodunggeunmo-code
+		font-spleen
+		gog-galaxy
+		openemu
+		sound-control
+		thunderbird
+		visual-studio
+		webcatalog
+		whatsapp
+		
+		==> Upgrading 1 outdated package:
+		ruby-build 20200722 -> 20200727
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		==> Downloading from https://codeload.github.com/rbenv/ruby-build/tar.gz/v20200727
+
+	brew update
+		Updated Homebrew from acd5e5836 to 24249e1f3.
+		Updated 1 tap (homebrew/core).
+		==> Updated Formulae
+		cnats
+		conan
+		exploitdb
+		liquidctl
+		minio
+		modules
+		terragrunt
+
+	pip3 install -U pip
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sat Aug 01 03:01:57 AM 2020
+	brew upgrade
+		Updated Homebrew from 24249e1f3 to ad4d2ac1d.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 56 formulae.
+		==> Updated Casks
+		alacritty
+		axe-edit-iii
+		cookie
+		craftmanager
+		data-rescue
+		drawio
+		electron-cash
+		expressvpn
+		fantastical
+		freeyourmusic
+		ghost-browser
+		gifox
+		gretl
+		imgotv
+		josm
+		lastpass
+		marsedit
+		metabase
+		microsoft-edge
+		milanote
+		odrive
+		one-switch
+		pencil2d
+		postbox
+		propresenter
+		quicken
+		scrutiny
+		securityspy
+		silentknight
+		sitebulb
+		tableplus
+		telegram
+		tencent-lemon
+		terminus
+		termius
+		vv
+		workflowy
+		
+		==> Upgrading 2 outdated packages:
+		glib 2.64.4_1 -> 2.64.4_2
+		ruby-build 20200722 -> 20200727
+		==> Upgrading glib 2.64.4_1 -> 2.64.4_2 
+		==> Downloading https://homebrew.bintray.com/bottles/glib-2.64.4_2.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/288fc814fdcc2b48b4296d700ce59468ae3a79bc11fa7978ca4de715afe88619?response-content-disposition=attachment%3Bfilename%3D%22glib-2.64.4_2.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvMjg4ZmM4MTRmZGNjMmI0OGI0Mjk2ZDcwMGNlNTk0NjhhZTNhNzliYzExZmE3OTc4Y2E0ZGU3MTVhZmU4ODYxOT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmdsaWItMi42NC40XzIuY2F0YWxpbmEuYm90dGxlLnRhci5neiUyMiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU5NjI3MzI1OH0sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=A8R-o3gHErZCO43REDZpgD7Vx-~XMEhjhUxpbJO3Tzm0Nrxuztyi0kA6uRO6ESx6VrmEiiG1-sV-P6PBzDg~0xz6H5Nc3gxSRN4V1V56CJxqGeLQw5CODthPq8Uz-JxXmIeaRAz0V85EwGJegiUBQj3CvduYeu5CM2w3kyTTKFH020Rto94jDHVZNO4oJSfHV~XAIMPv79tTa6aCcCJDhB0VzdRPGWHSDQITiRilH4KT2FZnHY5WrJ7iCfVVOBjT4gENNS9DTIRPHmXLwlffKwZWGzKyx9GKDCG9YgUISBf-VvCM1OMhfX~ljxreYk~oIAH3DXVmI82jojUHwE6tQQ__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring glib-2.64.4_2.catalina.bottle.tar.gz
+		==> Caveats
+		Bash completion has been installed to:
+		  /usr/local/etc/bash_completion.d
+		==> Summary
+		🚀  /usr/local/Cellar/glib/2.64.4_2: 436 files, 14.8MB
+		Removing: /usr/local/Cellar/glib/2.64.4_1... (436 files, 14.8MB)
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	pip3 install -U pip
+		
+
+	brew cleanup
+		Pruned 0 symbolic links and 2 directories from /usr/local
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sat Aug 01 09:00:08 AM 2020
+	brew upgrade
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 8 formulae.
+		==> Updated Casks
+		fsnotes
+		netron
+		pinegrow
+		rescuetime
+		
+		==> Upgrading 2 outdated packages:
+		ruby-build 20200722 -> 20200727
+		imagemagick 7.0.10-24 -> 7.0.10-25
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	brew update
+		Updated 1 tap (homebrew/core).
+		==> Updated Formulae
+		gcc
+		ipopt
+
+	pip3 install -U pip
+		
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/gcc--10.1.0.catalina.bottle.tar.gz... (100.7MB)
+		Removing: /Users/Michael/Library/Caches/Homebrew/imagemagick--7.0.10-24.catalina.bottle.tar.gz... (9.9MB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sat Aug 01 10:35:23 AM 2020
+	brew upgrade
+		Updated Homebrew from ad4d2ac1d to bfaff0af9.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 4 formulae.
+		==> Updated Casks
+		missive
+		open-ecard
+		
+		==> Upgrading 4 outdated packages:
+		gcc 10.1.0 -> 10.2.0
+		ruby-build 20200722 -> 20200727
+		gettext 0.20.2_1 -> 0.21
+		imagemagick 7.0.10-24 -> 7.0.10-25
+		==> Upgrading gcc 10.1.0 -> 10.2.0 
+		==> Downloading https://homebrew.bintray.com/bottles/gcc-10.2.0.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/8dbccea194c20b1037b7e8180986e98a8ee3e37eaac12c7d223c89be3deaac6a?response-content-disposition=attachment%3Bfilename%3D%22gcc-10.2.0.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvOGRiY2NlYTE5NGMyMGIxMDM3YjdlODE4MDk4NmU5OGE4ZWUzZTM3ZWFhYzEyYzdkMjIzYzg5YmUzZGVhYWM2YT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmdjYy0xMC4yLjAuY2F0YWxpbmEuYm90dGxlLnRhci5neiUyMiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU5NjMwMDQ2NH0sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=DDkSqkhymESHMJqKuuapA37aebmeJDngwZOwr5~KclPOfR~tUayuoe6IO7FhpWeuUq7MjqGAv30EC6nuynHTZ186xS7nyB7f15y8chJwSGqA2itErlseEozlQOhumKfyeSr-MQM0j7VVFNiInyloUKo4pJrE9-nQiSe6ThIiesRxLh-UvFfPvpVl2p3ui-s0sL~mDJesUD00DpcLC1j5SUfa9V11bIk5FgA7id2xiUUurMz1~fvrVrZCl8Hz~xVoqRB7Y7jtnucbZXQBsnmw9t6ICyFQTmhTV4AA1Rbe0khxl40cGnngR3bAlxDAuj9PMzb7EEwViFEoPRTeV0oIaA__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring gcc-10.2.0.catalina.bottle.tar.gz
+		🚀  /usr/local/Cellar/gcc/10.2.0: 1,463 files, 338.7MB
+		Removing: /usr/local/Cellar/gcc/10.1.0... (1,463 files, 338.5MB)
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	pip3 install -U pip
+		
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/gettext--0.20.2_1.catalina.bottle.tar.gz... (8.4MB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sun Aug 02 03:03:56 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from bfaff0af9 to 633fa027c.
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> Updated Formulae
+		Updated 23 formulae.
+		==> Updated Casks
+		appium
+		chromium
+		electerm
+		electronmail
+		exodus
+		font-hackgen
+		font-hackgen-nerd
+		golly
+		goodsync
+		laravel-kit
+		lockrattler
+		psi-plus
+		pycharm-ce
+		redcine-x-pro
+		sabnzbd
+		swiftformat-for-xcode
+		trilium-notes
+		waterfox-current
+		zettlr
+		
+		==> Upgrading 3 outdated packages:
+		ruby-build 20200722 -> 20200727
+		gettext 0.20.2_1 -> 0.21
+		imagemagick 7.0.10-24 -> 7.0.10-25
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	pip3 install -U pip
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sun Aug 02 09:00:11 AM 2020
+	brew upgrade
+		==> Upgrading 3 outdated packages:
+		ruby-build 20200722 -> 20200727
+		gettext 0.20.2_1 -> 0.21
+		imagemagick 7.0.10-24 -> 7.0.10-25
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	brew update
+		
+
+	pip3 install -U pip
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sun Aug 02 06:19:35 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 633fa027c to a605154ba.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		nanorc
+		==> Updated Formulae
+		Updated 6 formulae.
+		==> Updated Casks
+		surge-synthesizer
+		the-battle-for-wesnoth
+		
+		==> Upgrading 3 outdated packages:
+		ruby-build 20200722 -> 20200727
+		gettext 0.20.2_1 -> 0.21
+		imagemagick 7.0.10-24 -> 7.0.10-25
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	brew update
+		Updated Homebrew from a605154ba to 0369c0ae9.
+		No changes to formulae.
+
+	pip3 install -U pip
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sun Aug 02 01:57:57 PM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 22 formulae.
+		==> Updated Casks
+		anaconda
+		appstudio
+		jami
+		mkvtoolnix
+		
+		==> Upgrading 3 outdated packages:
+		ruby-build 20200722 -> 20200727
+		gettext 0.20.2_1 -> 0.21
+		imagemagick 7.0.10-24 -> 7.0.10-25
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	pip3 install -U pip
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Aug 03 03:02:39 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 0369c0ae9 to a3efb35b0.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 21 formulae.
+		==> Updated Casks
+		bitcoin-core
+		easy-move-plus-resize
+		electrocrud
+		fontlab
+		icollections
+		iina-plus
+		joplin
+		julia
+		liclipse
+		macjournal
+		malus
+		mark-text
+		mcreator
+		microsoft-edge
+		nosqlbooster-for-mongodb
+		pinegrow
+		popo
+		prepros
+		qownnotes
+		qt-creator
+		stats
+		thedesk
+		zettlr
+		
+		==> Upgrading 1 outdated package:
+		ruby-build 20200722 -> 20200727
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	brew cleanup
+		Removing: /usr/local/Cellar/gettext/0.20.2_1... (1,923 files, 18.6MB)
+		Pruned 0 symbolic links and 2 directories from /usr/local
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Aug 03 09:00:11 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from a3efb35b0 to 36c10edf2.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 2 formulae.
+		==> Updated Casks
+		dbeaver-community
+		fontlab
+		hey
+		ledger-live
+		qladdict
+		spotmenu
+		sql-power-architect-jdbc
+		the-battle-for-wesnoth
+		==> Deleted Casks
+		daily-english-listening
+		
+		==> Upgrading 1 outdated package:
+		ruby-build 20200722 -> 20200727
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	brew update
+		Updated 1 tap (homebrew/core).
+		==> Updated Formulae
+		babl
+		cgal
+		erlang@22
+		meilisearch
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Tue Aug 04 03:04:36 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 36c10edf2 to 9f80629f6.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 55 formulae.
+		==> Updated Casks
+		alt-tab
+		beatunes
+		brook
+		cryo
+		daedalus-mainnet
+		dcv-viewer
+		dosbox-x
+		downie
+		duplicacy-web-edition
+		dynobase
+		futuniuniu
+		hstracker
+		keyboard-maestro
+		loom
+		macintoshjs
+		marvin
+		metasploit
+		navicat-data-modeler
+		navicat-data-modeler-essentials
+		navicat-for-mysql
+		navicat-for-postgresql
+		navicat-for-sqlite
+		navicat-premium-essentials
+		pd-l2ork
+		permute
+		racket
+		refined-github-safari
+		session
+		skype
+		standard-notes
+		swiftformat-for-xcode
+		tableplus
+		thunderbird
+		timing
+		transnomino
+		vuescan
+		wormhole
+		
+		==> Upgrading 2 outdated packages:
+		ruby-build 20200722 -> 20200727
+		freexl 1.0.5_1 -> 1.0.6
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/freexl--1.0.5_1.catalina.bottle.1.tar.gz... (238.8KB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Tue Aug 04 09:00:11 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 9f80629f6 to bbd32a6b3.
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> Updated Formulae
+		Updated 5 formulae.
+		==> Updated Casks
+		anydesk
+		feishu
+		jellyfin
+		lark
+		listen1
+		mgba
+		protonmail-bridge
+		racket-cs
+		sitebulb
+		sizzy
+		springtoolsuite
+		
+		==> Upgrading 2 outdated packages:
+		ruby-build 20200722 -> 20200727
+		freexl 1.0.5_1 -> 1.0.6
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Tue Aug 04 10:12:21 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from bbd32a6b3 to 875f9e3b5.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		athenacli
+		silicon
+		==> Updated Formulae
+		Updated 10 formulae.
+		==> Updated Casks
+		alt-tab
+		
+		==> Upgrading 2 outdated packages:
+		ruby-build 20200722 -> 20200727
+		freexl 1.0.5_1 -> 1.0.6
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	brew cask upgrade
+		==> Auto-updated Homebrew!
+		Updated 1 tap (homebrew/core).
+		==> Updated Formulae
+		Updated 1 formula.
+		
+		==> No Casks to upgrade
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Wed Aug 05 03:03:29 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 875f9e3b5 to 068568e6e.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		c7n
+		fetch
+		shallow-backup
+		==> Updated Formulae
+		Updated 51 formulae.
+		==> Updated Casks
+		activedock
+		bettertouchtool
+		bitwarden
+		buildsettingextractor
+		camtasia
+		chef-workstation
+		chronicle
+		crypter
+		flipper
+		gemini
+		get-backup-pro
+		gitkraken
+		hydrogen
+		integrity
+		loom
+		macintoshjs
+		malus
+		mega
+		melodics
+		pdf-expert
+		phocus
+		protonvpn
+		routeconverter
+		screaming-frog-seo-spider
+		signal
+		sipgate-softphone
+		skim
+		snagit
+		sourcetree
+		taskade
+		tidepool-uploader
+		trader-workstation
+		tuple
+		ultimate
+		wavebox
+		wechatwork
+		wordpresscom
+		workflowy
+		yinxiangbiji
+		ytmdesktop-youtube-music
+		zappy
+		zoc
+		zoom-for-it-admins
+		zoomus
+		
+		==> Upgrading 3 outdated packages:
+		ruby-build 20200722 -> 20200727
+		freexl 1.0.5_1 -> 1.0.6
+		jasper 2.0.17 -> 2.0.19
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/jasper--2.0.17.catalina.bottle.tar.gz... (652KB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Wed Aug 05 09:00:07 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 068568e6e to 0e8962f81.
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> Updated Formulae
+		Updated 5 formulae.
+		==> Updated Casks
+		appcode
+		backuploupe
+		cctalk
+		chef-workstation
+		engine-prime
+		font-montserrat
+		font-mplus
+		font-rounded-mplus
+		graphicconverter
+		kafka-tool
+		mendeley-reference-manager
+		navicat-premium
+		qfinder-pro
+		ticktick
+		windows95
+		==> Deleted Casks
+		font-m-plus
+		font-rounded-m-plus
+		
+		==> Upgrading 3 outdated packages:
+		ruby-build 20200722 -> 20200727
+		freexl 1.0.5_1 -> 1.0.6
+		jasper 2.0.17 -> 2.0.19
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Wed Aug 05 10:31:06 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 5 formulae.
+		==> Updated Casks
+		copyclip
+		downie
+		neo4j
+		yyets
+		
+		==> Upgrading 3 outdated packages:
+		ruby-build 20200722 -> 20200727
+		freexl 1.0.5_1 -> 1.0.6
+		jasper 2.0.17 -> 2.0.19
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Thu Aug 06 06:05:10 PM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 0e8962f81 to 56ed27af1.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		torchvision
+		==> Updated Formulae
+		Updated 19 formulae.
+		==> Updated Casks
+		alt-tab
+		amazon-chime
+		anydesk
+		anydo
+		appgate-sdp-client
+		axe-edit-iii
+		axure-rp
+		balsamiq-wireframes
+		blender
+		blitz
+		blocs
+		deepl
+		electerm
+		element
+		glyphs
+		goland
+		i1profiler
+		libreoffice
+		libreoffice-language-pack
+		middle
+		milanote
+		mochi
+		path-finder
+		permute
+		pinta
+		qownnotes
+		qv2ray
+		sameboy
+		segger-embedded-studio-for-arm
+		sipgate-softphone
+		soundsource
+		texpad
+		timing
+		tuple
+		unnaturalscrollwheels
+		vivaldi
+		voov-meeting
+		wasabi-wallet
+		wire
+		wondershare-uniconverter
+		zoom-for-it-admins
+		zoomus
+		
+		==> Upgrading 3 outdated packages:
+		ruby-build 20200722 -> 20200727
+		freexl 1.0.5_1 -> 1.0.6
+		jasper 2.0.17 -> 2.0.19
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+
+	brew cask upgrade
+		
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Logs/Homebrew/proj... (64B)
+		Removing: /Users/Michael/Library/Logs/Homebrew/fox... (64B)
+		Removing: /Users/Michael/Library/Logs/Homebrew/xerces-c... (64B)
+		Removing: /Users/Michael/Library/Logs/Homebrew/fontconfig... (42.6KB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Fri Aug 07 03:00:03 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 56ed27af1 to 21ef9d942.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 16 formulae.
+		==> Updated Casks
+		a-better-finder-rename
+		abstract
+		aircall
+		alt-tab
+		beatunes
+		blizz
+		bonitastudiocommunity
+		browserosaurus
+		dbschema
+		discord
+		flipper
+		folx
+		futuniuniu
+		gnucash
+		grandtotal
+		houdahspot
+		keep-it
+		kite
+		lens
+		loom
+		maccy
+		mailplane
+		melodics
+		moneymoney
+		openaudible
+		preform
+		proclaim
+		quip
+		refined-github-safari
+		rekordbox
+		remote-desktop-manager
+		remote-desktop-manager-free
+		runway
+		session
+		sipgate-softphone
+		superproductivity
+		thebrain
+		tiled
+		tunnelbear
+		vmware-fusion
+		zeplin
+		
+		==> Upgrading 3 outdated packages:
+		ruby-build 20200722 -> 20200727
+		freexl 1.0.5_1 -> 1.0.6
+		jasper 2.0.17 -> 2.0.19
+		==> Upgrading ruby-build 20200722 -> 20200727 
+		==> Downloading https://github.com/rbenv/ruby-build/archive/v20200727.tar.gz
+		Already downloaded: /Users/Michael/Library/Caches/Homebrew/downloads/5fea4cc5b9376cb90840eaf115394102fc8b89d95b7f1aa9cf57c2e116ee1f71--ruby-build-20200727.tar.gz
+		==> ./install.sh
+		==> Caveats
+		ruby-build installs a non-Homebrew OpenSSL for each Ruby version installed and these are never upgraded.
+		
+		To link Rubies to Homebrew's OpenSSL 1.1 (which is upgraded) add the following
+		to your ~/.zshrc:
+		  export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+		
+		Note: this may interfere with building old versions of Ruby (e.g <2.4) that use
+		OpenSSL <1.1.
+		==> Summary
+		🚀  /usr/local/Cellar/ruby-build/20200727: 505 files, 251.8KB, built in 4 seconds
+		Removing: /usr/local/Cellar/ruby-build/20200722... (505 files, 251.8KB)
+		==> Upgrading freexl 1.0.5_1 -> 1.0.6 
+		==> Downloading https://homebrew.bintray.com/bottles/freexl-1.0.6.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/4bac859e3460476137f1596a36015e9c0d3e1d2b46a9aa47171cabf7af5f5d71?response-content-disposition=attachment%3Bfilename%3D%22freexl-1.0.6.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvNGJhYzg1OWUzNDYwNDc2MTM3ZjE1OTZhMzYwMTVlOWMwZDNlMWQyYjQ2YTlhYTQ3MTcxY2FiZjdhZjVmNWQ3MT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmZyZWV4bC0xLjAuNi5jYXRhbGluYS5ib3R0bGUudGFyLmd6JTIyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTk2NzkxNTQ3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=V5-NXrqAOlFU0uF98VzOPMI3foKh4qP~IWrTlGe5O1dVJODw7856UHG4V7wpR4~gtz8DWoTybqNIN1uN2RA8QvusbmV-GjQoO~ay1QAEbu3wF9nju14g6QS-8jJr28F529B66Tj3MVC2jyR3F-x0k-6DZ43FwHxxguOLa1ERTfzsYhNVEoRICG-W9cvExvr5Pic3fJl5yvJyno2RZomLH7DJahK~XFCUfwY3CqK7q-FJszu1kzBR0XbmR6eExFqondqLrTNmXizhd4s4tYfIVn4mI62i4DZcgHsNTHYABUjkOyPJKuxAWo-7xmGAxRbe~m64A5K7RawHaE0KYnnaJQ__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring freexl-1.0.6.catalina.bottle.tar.gz
+		🚀  /usr/local/Cellar/freexl/1.0.6: 115 files, 898.9KB
+		Removing: /usr/local/Cellar/freexl/1.0.5_1... (115 files, 889.2KB)
+		==> Upgrading jasper 2.0.17 -> 2.0.19 
+		==> Downloading https://homebrew.bintray.com/bottles/jasper-2.0.19.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/6e08d9c308ba24cc512801f4f9ae9b06353ab3d10139c3679410f0e038e217b1?response-content-disposition=attachment%3Bfilename%3D%22jasper-2.0.19.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvNmUwOGQ5YzMwOGJhMjRjYzUxMjgwMWY0ZjlhZTliMDYzNTNhYjNkMTAxMzljMzY3OTQxMGYwZTAzOGUyMTdiMT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmphc3Blci0yLjAuMTkuY2F0YWxpbmEuYm90dGxlLnRhci5neiUyMiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU5Njc5MTU1MH0sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=MT1w9SNL5DFmuOY5fO~4K7NOxF5Vicr0235EOMzZgY27T6IQbeEymamvgpeuDBvB9KUYpRjl~rpIK6WH-0jNEYV7bjSlea1WM~kLztcwItyBKHwZ2veSwgzYRXYh8BfgYCLvzNlDP3~~KgZbf~3v1NHNWmY3raFvQX0T5VMh7BI2Sfokp16DgsgdFdvkFui8mCkst9RCuf99LCTIcgGwpgVCRAVjEy-mcd-pAjNN1~rCbnHZ2IHYh7DFRPhuEP4dPydW92FvXlvGd7IvPOqM~bO9cl1J5xg~5IXXydmgsvjTbvSrni-6HRh12eEXeWVW~puBj3RsOzL477xsc2kUoQ__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring jasper-2.0.19.catalina.bottle.tar.gz
+		🚀  /usr/local/Cellar/jasper/2.0.19: 41 files, 1.3MB
+		Removing: /usr/local/Cellar/jasper/2.0.17... (40 files, 1.3MB)
+		==> Caveats
+		==> ruby-build
+		ruby-build installs a non-Homebrew OpenSSL for each Ruby version installed and these are never upgraded.
+		
+		To link Rubies to Homebrew's OpenSSL 1.1 (which is upgraded) add the following
+		to your ~/.zshrc:
+		  export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+		
+		Note: this may interfere with building old versions of Ruby (e.g <2.4) that use
+		OpenSSL <1.1.
+
+	brew cask upgrade
+		
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Caches/Homebrew/Cask/discord--0.0.257.dmg... (64.6MB)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sat Aug 08 03:02:03 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 21ef9d942 to 5de4378a9.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		nfpm
+		sheldon
+		==> Updated Formulae
+		Updated 57 formulae.
+		==> Updated Casks
+		alt-tab
+		birdfont
+		daedalus-mainnet
+		gns3
+		icollections
+		icq
+		itubedownloader
+		local
+		mathpix-snipping-tool
+		mcgimp
+		mendeley-reference-manager
+		minitube
+		musescore
+		musictube
+		netron
+		opera
+		privatetunnel
+		responsively
+		sage
+		smartsynchronize
+		swiftformat-for-xcode
+		tagspaces
+		terminus
+		thunderbird
+		tuple
+		whalebird
+		whatsapp
+		wickrme
+		xamarin-android
+		xamarin-ios
+		xamarin-mac
+		zoomus
+		
+		==> Upgrading 1 outdated package:
+		libomp 10.0.0 -> 10.0.1
+		==> Upgrading libomp 10.0.0 -> 10.0.1 
+		==> Downloading https://homebrew.bintray.com/bottles/libomp-10.0.1.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/8545af588b2b210708b56669365cea97eb80941fe455e69f54ad85f3bb5bc18c?response-content-disposition=attachment%3Bfilename%3D%22libomp-10.0.1.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvODU0NWFmNTg4YjJiMjEwNzA4YjU2NjY5MzY1Y2VhOTdlYjgwOTQxZmU0NTVlNjlmNTRhZDg1ZjNiYjViYzE4Yz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmxpYm9tcC0xMC4wLjEuY2F0YWxpbmEuYm90dGxlLnRhci5neiUyMiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU5Njg3ODA1Nn0sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=DUKJdvR6plZTbPYicqm31cPKb~WB9a6H~BUNqheSTcD20~ThNf2u8W7r0IiBKO~vXZGNNVaky0djGMVBTTXV6QP~XF3xkoDkHXjYVo-HsGNe~G~XzyVDkavB9IrExL-vLhRaqWN15dIQMMbHZOIoDmmF6zeph4hWqc6VIRVeQWS5WSvgAvUfq28terFI0pv7YOxTyP5uVuBAas56tA5IuVP2khiovAb9J22uAt0IiYgxm-Tc16ue4B65RWlEothoQ5PoTmjqXSYafyAhJc~admHkTIIgEX6gAeAvJj2Cruq6Z36qKLgZ~s8tU-JeT5N5~qzjz6nzcBFx9U-hU8WfUA__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring libomp-10.0.1.catalina.bottle.tar.gz
+		🚀  /usr/local/Cellar/libomp/10.0.1: 9 files, 1.3MB
+		Removing: /usr/local/Cellar/libomp/10.0.0... (9 files, 1.3MB)
+		Removing: /Users/Michael/Library/Caches/Homebrew/libomp--10.0.0.catalina.bottle.tar.gz... (461.0KB)
+
+	brew cask upgrade
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sat Aug 08 09:00:06 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 4 formulae.
+		==> Updated Casks
+		soundsource
+
+	brew cask upgrade
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sat Aug 08 04:24:42 PM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> New Formulae
+		osm
+		==> Updated Formulae
+		Updated 18 formulae.
+		==> Updated Casks
+		soundsource
+		vienna
+
+	brew cask upgrade
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
