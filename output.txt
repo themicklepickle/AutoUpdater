@@ -7944,3 +7944,261 @@ Sat Aug 08 04:24:42 PM 2020
 
 ———————————————————————————————————————————————————————————————————————————————————————————————————
 
+Sun Aug 09 03:02:31 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 5de4378a9 to d5dfe4d6a.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 7 formulae.
+		==> Updated Casks
+		altair-graphql-client
+		bettertouchtool
+		blitz
+		chromium
+		corona-tracker
+		data-rescue
+		diskcatalogmaker
+		doxygen
+		electrocrud
+		gingko
+		katalon-studio
+		keeweb
+		loom
+		netnewswire
+		odrive
+		retrobatch
+		sqlpro-for-mssql
+		sqlpro-studio
+		stack-stack
+		superproductivity
+		transcribe
+		wpsoffice
+
+	brew cask upgrade
+		
+
+	brew update
+		Already up-to-date.
+
+	rvm install ruby@latest
+		
+
+	brew cleanup
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sun Aug 09 09:00:08 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from d5dfe4d6a to e28a33634.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 4 formulae.
+		==> Updated Casks
+		anki
+		swiftformat-for-xcode
+
+	brew cask upgrade
+		
+
+	brew update
+		Already up-to-date.
+
+	rvm install ruby@latest
+		
+
+	brew cleanup
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Sun Aug 09 11:32:31 PM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from e28a33634 to 264de9685.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 20 formulae.
+		==> Updated Casks
+		battle-net
+		bisq
+		chalk
+		chirp
+		cliqz
+		dashlane
+		edrawmax
+		empoche
+		expressvpn
+		feishu
+		firefox
+		fme-desktop
+		gloomhaven-helper
+		jami
+		lark
+		libreoffice-language-pack
+		mcgimp
+		metashape
+		milkman
+		minecraftpe
+		movist-pro
+		mpeg-streamclip
+		musictube
+		navicat-premium
+		openoffice
+		openttd
+		pokerstars
+		proclaim
+		psychopy
+		qownnotes
+		screen
+		seamonkey
+		sia-ui
+		sketchup-pro
+		spatial
+		sqlpro-for-postgres
+		stats
+		superproductivity
+		thunderbird
+		tor-browser
+		unity
+		unity-ios-support-for-editor
+		veracrypt
+		wickrme
+		zoom-for-it-admins
+		==> Deleted Casks
+		webponize
+		yourkit-java-profiler
+		
+		==> Upgrading 1 outdated package:
+		imagemagick 7.0.10-25 -> 7.0.10-26
+		==> Upgrading imagemagick 7.0.10-25 -> 7.0.10-26 
+		==> Downloading https://homebrew.bintray.com/bottles/imagemagick-7.0.10-26.catalina.bottle.tar.gz
+		==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/2705c64b0356f89ba6c25ba0dc8794754c871a17fa8df84943bfe8687ab3ecb0?response-content-disposition=attachment%3Bfilename%3D%22imagemagick-7.0.10-26.catalina.bottle.tar.gz%22&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHAqOi8vZDI5dnprNG93MDd3aTcuY2xvdWRmcm9udC5uZXQvMjcwNWM2NGIwMzU2Zjg5YmE2YzI1YmEwZGM4Nzk0NzU0Yzg3MWExN2ZhOGRmODQ5NDNiZmU4Njg3YWIzZWNiMD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0JmaWxlbmFtZSUzRCUyMmltYWdlbWFnaWNrLTcuMC4xMC0yNi5jYXRhbGluYS5ib3R0bGUudGFyLmd6JTIyIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTk3MDM4MjkwfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=lCo~QATT~ZP74AjHBfC3xSR0FyBENb7Nb8OzZp9TLjPu5rn4ECmvqt-l9tyJPTFnG6m0KfVRPD70FrS43pKbN4~cnUQhTrjm1bW9hVxqWbhqO~rTUYlBret3BIMC0~ODczrCpkPm8yxEOwjK9LZuPo~hCxitu6q0pjnuEA7PMMvMBOXj~9xxRjb88liGZ9o3PjR2qRQBlmqz-kyHXkOrj9H6RnaqR4l723y0YwgiYvEbmlqPcCl~dNlhxP~cAeww3aMD8oq42LjjJiM4HUm-MuwbZ8k1SfokzbnIAdxhQwcoiv8DIoqgUDe73XSA4fMbEeqcoXRPGhMEZ~gXBXemAA__&Key-Pair-Id=APKAIFKFWOMXM2UMTSFA
+		==> Pouring imagemagick-7.0.10-26.catalina.bottle.tar.gz
+		🚀  /usr/local/Cellar/imagemagick/7.0.10-26: 1,499 files, 25.6MB
+		Removing: /usr/local/Cellar/imagemagick/7.0.10-25... (1,497 files, 25.6MB)
+		Removing: /Users/Michael/Library/Caches/Homebrew/imagemagick--7.0.10-25.catalina.bottle.tar.gz... (9.9MB)
+
+	brew cask upgrade
+		
+
+	brew update
+		Already up-to-date.
+
+	rvm install ruby@latest
+		
+
+	brew cleanup
+		Removing: /Users/Michael/Library/Logs/Homebrew/gmp... (64B)
+		Removing: /Users/Michael/Library/Logs/Homebrew/mpfr... (64B)
+		Removing: /Users/Michael/Library/Logs/Homebrew/gcc... (64B)
+		Removing: /Users/Michael/Library/Logs/Homebrew/isl... (64B)
+		Removing: /Users/Michael/Library/Logs/Homebrew/libmpc... (64B)
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Aug 10 03:09:21 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 264de9685 to 4de4c3d4d.
+		Updated 1 tap (homebrew/core).
+		==> Updated Formulae
+		Updated 3 formulae.
+
+	brew cask upgrade
+		
+
+	brew update
+		Already up-to-date.
+
+	rvm install ruby@latest
+		
+
+	brew cleanup
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Aug 10 08:49:48 AM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from 4de4c3d4d to c49ef80dd.
+		Updated 2 taps (homebrew/core and homebrew/cask).
+		==> Updated Formulae
+		Updated 13 formulae.
+		==> Updated Casks
+		appium
+		cocoaspell
+		iterm2
+		jetbrains-toolbox
+		proxyman
+		unity-android-support-for-editor
+		unity-download-assistant
+		unity-lumin-support-for-editor
+		unity-webgl-support-for-editor
+		unity-windows-support-for-editor
+
+	brew cask upgrade
+		
+
+	brew update
+		Already up-to-date.
+
+	rvm install ruby@latest
+		
+
+	brew cleanup
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Aug 10 09:00:07 AM 2020
+	brew upgrade
+		
+
+	brew cask upgrade
+		
+
+	brew update
+		Already up-to-date.
+
+	rvm install ruby@latest
+		
+
+	brew cleanup
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
+Mon Aug 10 02:36:41 PM 2020
+	brew upgrade
+		==> Auto-updated Homebrew!
+		Updated Homebrew from c49ef80dd to 1644ec2f5.
+		Updated 3 taps (homebrew/core, homebrew/cask and homebrew/cask-fonts).
+		==> Updated Formulae
+		Updated 19 formulae.
+		==> Updated Casks
+		font-sarasa-gothic
+		google-chrome
+		multipass
+		musicbrainz-picard
+		postman
+		sweet-home3d
+		tortoisehg
+
+	brew cask upgrade
+		
+
+	brew update
+		Already up-to-date.
+
+	rvm install ruby@latest
+		
+
+	brew cleanup
+		
+
+———————————————————————————————————————————————————————————————————————————————————————————————————
+
